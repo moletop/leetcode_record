@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/leetcode c++/202. 快乐数.cpp
+iostream
+-
+vector
+-
+unordered_set
+-
+
+E:/leetcode c++/main.cpp
+iostream
+-
+vector
+-
+unordered_set
+-
+

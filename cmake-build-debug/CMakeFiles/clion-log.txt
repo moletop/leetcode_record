@@ -1,0 +1,9 @@
+"D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\leetcode c++"
+    -- src/1.sum_of_two_number.cpp will be compiled to bin/1.sum_of_two_number
+    -- src/202.happy_number.cpp will be compiled to bin/202.happy_number
+    -- src/454.4_Sum_II.cpp will be compiled to bin/454.4_Sum_II
+    -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+    -- src/test.cpp will be compiled to bin/test
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/leetcode c++/cmake-build-debug
