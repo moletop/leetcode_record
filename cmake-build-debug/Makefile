@@ -74,17 +74,6 @@ CMAKE_BINARY_DIR = "E:\leetcode c++\cmake-build-debug"
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -95,6 +84,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -142,6 +142,19 @@ depend:
 .PHONY : 1.sum_of_two_number/fast
 
 #=============================================================================
+# Target rules for targets named 344.Reverse_String
+
+# Build rule for target.
+344.Reverse_String: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 344.Reverse_String
+.PHONY : 344.Reverse_String
+
+# fast build rule for target.
+344.Reverse_String/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/build
+.PHONY : 344.Reverse_String/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -153,19 +166,6 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
-
-#=============================================================================
-# Target rules for targets named CMakeCXXCompilerId
-
-# Build rule for target.
-CMakeCXXCompilerId: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeCXXCompilerId
-.PHONY : CMakeCXXCompilerId
-
-# fast build rule for target.
-CMakeCXXCompilerId/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/build
-.PHONY : CMakeCXXCompilerId/fast
 
 #=============================================================================
 # Target rules for targets named 202.happy_number
@@ -181,6 +181,19 @@ CMakeCXXCompilerId/fast:
 .PHONY : 202.happy_number/fast
 
 #=============================================================================
+# Target rules for targets named CMakeCXXCompilerId
+
+# Build rule for target.
+CMakeCXXCompilerId: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeCXXCompilerId
+.PHONY : CMakeCXXCompilerId
+
+# fast build rule for target.
+CMakeCXXCompilerId/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/build
+.PHONY : CMakeCXXCompilerId/fast
+
+#=============================================================================
 # Target rules for targets named 454.4_Sum_II
 
 # Build rule for target.
@@ -192,6 +205,19 @@ CMakeCXXCompilerId/fast:
 454.4_Sum_II/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/build
 .PHONY : 454.4_Sum_II/fast
+
+#=============================================================================
+# Target rules for targets named sword_to_offer_05_replaceSpace
+
+# Build rule for target.
+sword_to_offer_05_replaceSpace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sword_to_offer_05_replaceSpace
+.PHONY : sword_to_offer_05_replaceSpace
+
+# fast build rule for target.
+sword_to_offer_05_replaceSpace/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_replaceSpace.dir\build.make CMakeFiles/sword_to_offer_05_replaceSpace.dir/build
+.PHONY : sword_to_offer_05_replaceSpace/fast
 
 1.sum_of_two_number.obj: 1.sum_of_two_number.cpp.obj
 
@@ -247,6 +273,33 @@ CMakeCXXCompilerId/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\202.happy_number.dir\build.make CMakeFiles/202.happy_number.dir/202.happy_number.cpp.s
 .PHONY : 202.happy_number.cpp.s
 
+344.Reverse_String.obj: 344.Reverse_String.cpp.obj
+
+.PHONY : 344.Reverse_String.obj
+
+# target to build an object file
+344.Reverse_String.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/344.Reverse_String.cpp.obj
+.PHONY : 344.Reverse_String.cpp.obj
+
+344.Reverse_String.i: 344.Reverse_String.cpp.i
+
+.PHONY : 344.Reverse_String.i
+
+# target to preprocess a source file
+344.Reverse_String.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/344.Reverse_String.cpp.i
+.PHONY : 344.Reverse_String.cpp.i
+
+344.Reverse_String.s: 344.Reverse_String.cpp.s
+
+.PHONY : 344.Reverse_String.s
+
+# target to generate assembly for a file
+344.Reverse_String.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/344.Reverse_String.cpp.s
+.PHONY : 344.Reverse_String.cpp.s
+
 454.4_Sum_II.obj: 454.4_Sum_II.cpp.obj
 
 .PHONY : 454.4_Sum_II.obj
@@ -301,6 +354,33 @@ CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 .PHONY : CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
+sword_to_offer_05_replaceSpace.obj: sword_to_offer_05_replaceSpace.cpp.obj
+
+.PHONY : sword_to_offer_05_replaceSpace.obj
+
+# target to build an object file
+sword_to_offer_05_replaceSpace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_replaceSpace.dir\build.make CMakeFiles/sword_to_offer_05_replaceSpace.dir/sword_to_offer_05_replaceSpace.cpp.obj
+.PHONY : sword_to_offer_05_replaceSpace.cpp.obj
+
+sword_to_offer_05_replaceSpace.i: sword_to_offer_05_replaceSpace.cpp.i
+
+.PHONY : sword_to_offer_05_replaceSpace.i
+
+# target to preprocess a source file
+sword_to_offer_05_replaceSpace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_replaceSpace.dir\build.make CMakeFiles/sword_to_offer_05_replaceSpace.dir/sword_to_offer_05_replaceSpace.cpp.i
+.PHONY : sword_to_offer_05_replaceSpace.cpp.i
+
+sword_to_offer_05_replaceSpace.s: sword_to_offer_05_replaceSpace.cpp.s
+
+.PHONY : sword_to_offer_05_replaceSpace.s
+
+# target to generate assembly for a file
+sword_to_offer_05_replaceSpace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_replaceSpace.dir\build.make CMakeFiles/sword_to_offer_05_replaceSpace.dir/sword_to_offer_05_replaceSpace.cpp.s
+.PHONY : sword_to_offer_05_replaceSpace.cpp.s
+
 test.obj: test.cpp.obj
 
 .PHONY : test.obj
@@ -338,8 +418,10 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 1.sum_of_two_number
 	@echo ... 202.happy_number
+	@echo ... 344.Reverse_String
 	@echo ... 454.4_Sum_II
 	@echo ... CMakeCXXCompilerId
+	@echo ... sword_to_offer_05_replaceSpace
 	@echo ... test
 	@echo ... 1.sum_of_two_number.obj
 	@echo ... 1.sum_of_two_number.i
@@ -347,12 +429,18 @@ help:
 	@echo ... 202.happy_number.obj
 	@echo ... 202.happy_number.i
 	@echo ... 202.happy_number.s
+	@echo ... 344.Reverse_String.obj
+	@echo ... 344.Reverse_String.i
+	@echo ... 344.Reverse_String.s
 	@echo ... 454.4_Sum_II.obj
 	@echo ... 454.4_Sum_II.i
 	@echo ... 454.4_Sum_II.s
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.i
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.s
+	@echo ... sword_to_offer_05_replaceSpace.obj
+	@echo ... sword_to_offer_05_replaceSpace.i
+	@echo ... sword_to_offer_05_replaceSpace.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s

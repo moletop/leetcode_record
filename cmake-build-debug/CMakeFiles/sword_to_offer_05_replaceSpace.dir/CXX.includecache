@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/leetcode c++/cmake-build-debug/sword_to_offer_05_replaceSpace.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+
