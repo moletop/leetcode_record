@@ -168,6 +168,19 @@ test/fast:
 .PHONY : test/fast
 
 #=============================================================================
+# Target rules for targets named sword_to_offer_05_space_replace
+
+# Build rule for target.
+sword_to_offer_05_space_replace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sword_to_offer_05_space_replace
+.PHONY : sword_to_offer_05_space_replace
+
+# fast build rule for target.
+sword_to_offer_05_space_replace/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/build
+.PHONY : sword_to_offer_05_space_replace/fast
+
+#=============================================================================
 # Target rules for targets named 202.happy_number
 
 # Build rule for target.
@@ -205,19 +218,6 @@ CMakeCXXCompilerId/fast:
 454.4_Sum_II/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/build
 .PHONY : 454.4_Sum_II/fast
-
-#=============================================================================
-# Target rules for targets named sword_to_offer_05_replaceSpace
-
-# Build rule for target.
-sword_to_offer_05_replaceSpace: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sword_to_offer_05_replaceSpace
-.PHONY : sword_to_offer_05_replaceSpace
-
-# fast build rule for target.
-sword_to_offer_05_replaceSpace/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_replaceSpace.dir\build.make CMakeFiles/sword_to_offer_05_replaceSpace.dir/build
-.PHONY : sword_to_offer_05_replaceSpace/fast
 
 1.sum_of_two_number.obj: 1.sum_of_two_number.cpp.obj
 
@@ -354,32 +354,32 @@ CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 .PHONY : CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
-sword_to_offer_05_replaceSpace.obj: sword_to_offer_05_replaceSpace.cpp.obj
+sword_to_offer_05_space_replace.obj: sword_to_offer_05_space_replace.cpp.obj
 
-.PHONY : sword_to_offer_05_replaceSpace.obj
+.PHONY : sword_to_offer_05_space_replace.obj
 
 # target to build an object file
-sword_to_offer_05_replaceSpace.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_replaceSpace.dir\build.make CMakeFiles/sword_to_offer_05_replaceSpace.dir/sword_to_offer_05_replaceSpace.cpp.obj
-.PHONY : sword_to_offer_05_replaceSpace.cpp.obj
+sword_to_offer_05_space_replace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/sword_to_offer_05_space_replace.cpp.obj
+.PHONY : sword_to_offer_05_space_replace.cpp.obj
 
-sword_to_offer_05_replaceSpace.i: sword_to_offer_05_replaceSpace.cpp.i
+sword_to_offer_05_space_replace.i: sword_to_offer_05_space_replace.cpp.i
 
-.PHONY : sword_to_offer_05_replaceSpace.i
+.PHONY : sword_to_offer_05_space_replace.i
 
 # target to preprocess a source file
-sword_to_offer_05_replaceSpace.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_replaceSpace.dir\build.make CMakeFiles/sword_to_offer_05_replaceSpace.dir/sword_to_offer_05_replaceSpace.cpp.i
-.PHONY : sword_to_offer_05_replaceSpace.cpp.i
+sword_to_offer_05_space_replace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/sword_to_offer_05_space_replace.cpp.i
+.PHONY : sword_to_offer_05_space_replace.cpp.i
 
-sword_to_offer_05_replaceSpace.s: sword_to_offer_05_replaceSpace.cpp.s
+sword_to_offer_05_space_replace.s: sword_to_offer_05_space_replace.cpp.s
 
-.PHONY : sword_to_offer_05_replaceSpace.s
+.PHONY : sword_to_offer_05_space_replace.s
 
 # target to generate assembly for a file
-sword_to_offer_05_replaceSpace.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_replaceSpace.dir\build.make CMakeFiles/sword_to_offer_05_replaceSpace.dir/sword_to_offer_05_replaceSpace.cpp.s
-.PHONY : sword_to_offer_05_replaceSpace.cpp.s
+sword_to_offer_05_space_replace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/sword_to_offer_05_space_replace.cpp.s
+.PHONY : sword_to_offer_05_space_replace.cpp.s
 
 test.obj: test.cpp.obj
 
@@ -421,7 +421,7 @@ help:
 	@echo ... 344.Reverse_String
 	@echo ... 454.4_Sum_II
 	@echo ... CMakeCXXCompilerId
-	@echo ... sword_to_offer_05_replaceSpace
+	@echo ... sword_to_offer_05_space_replace
 	@echo ... test
 	@echo ... 1.sum_of_two_number.obj
 	@echo ... 1.sum_of_two_number.i
@@ -438,9 +438,9 @@ help:
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.i
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.s
-	@echo ... sword_to_offer_05_replaceSpace.obj
-	@echo ... sword_to_offer_05_replaceSpace.i
-	@echo ... sword_to_offer_05_replaceSpace.s
+	@echo ... sword_to_offer_05_space_replace.obj
+	@echo ... sword_to_offer_05_space_replace.i
+	@echo ... sword_to_offer_05_space_replace.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s

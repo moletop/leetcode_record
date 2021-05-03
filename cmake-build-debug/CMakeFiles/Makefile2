@@ -74,10 +74,10 @@ CMAKE_BINARY_DIR = "E:\leetcode c++\cmake-build-debug"
 all: CMakeFiles/1.sum_of_two_number.dir/all
 all: CMakeFiles/344.Reverse_String.dir/all
 all: CMakeFiles/test.dir/all
+all: CMakeFiles/sword_to_offer_05_space_replace.dir/all
 all: CMakeFiles/202.happy_number.dir/all
 all: CMakeFiles/CMakeCXXCompilerId.dir/all
 all: CMakeFiles/454.4_Sum_II.dir/all
-all: CMakeFiles/sword_to_offer_05_replaceSpace.dir/all
 
 .PHONY : all
 
@@ -90,10 +90,10 @@ preinstall:
 clean: CMakeFiles/1.sum_of_two_number.dir/clean
 clean: CMakeFiles/344.Reverse_String.dir/clean
 clean: CMakeFiles/test.dir/clean
+clean: CMakeFiles/sword_to_offer_05_space_replace.dir/clean
 clean: CMakeFiles/202.happy_number.dir/clean
 clean: CMakeFiles/CMakeCXXCompilerId.dir/clean
 clean: CMakeFiles/454.4_Sum_II.dir/clean
-clean: CMakeFiles/sword_to_offer_05_replaceSpace.dir/clean
 
 .PHONY : clean
 
@@ -179,6 +179,33 @@ CMakeFiles/test.dir/clean:
 .PHONY : CMakeFiles/test.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sword_to_offer_05_space_replace.dir
+
+# All Build rule for target.
+CMakeFiles/sword_to_offer_05_space_replace.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target sword_to_offer_05_space_replace"
+.PHONY : CMakeFiles/sword_to_offer_05_space_replace.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sword_to_offer_05_space_replace.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\leetcode c++\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sword_to_offer_05_space_replace.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\leetcode c++\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/sword_to_offer_05_space_replace.dir/rule
+
+# Convenience name for target.
+sword_to_offer_05_space_replace: CMakeFiles/sword_to_offer_05_space_replace.dir/rule
+
+.PHONY : sword_to_offer_05_space_replace
+
+# clean rule for target.
+CMakeFiles/sword_to_offer_05_space_replace.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/clean
+.PHONY : CMakeFiles/sword_to_offer_05_space_replace.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/202.happy_number.dir
 
 # All Build rule for target.
@@ -258,33 +285,6 @@ CMakeFiles/454.4_Sum_II.dir/rule: cmake_check_build_system
 CMakeFiles/454.4_Sum_II.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/clean
 .PHONY : CMakeFiles/454.4_Sum_II.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/sword_to_offer_05_replaceSpace.dir
-
-# All Build rule for target.
-CMakeFiles/sword_to_offer_05_replaceSpace.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_replaceSpace.dir\build.make CMakeFiles/sword_to_offer_05_replaceSpace.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_replaceSpace.dir\build.make CMakeFiles/sword_to_offer_05_replaceSpace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target sword_to_offer_05_replaceSpace"
-.PHONY : CMakeFiles/sword_to_offer_05_replaceSpace.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/sword_to_offer_05_replaceSpace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\leetcode c++\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sword_to_offer_05_replaceSpace.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\leetcode c++\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/sword_to_offer_05_replaceSpace.dir/rule
-
-# Convenience name for target.
-sword_to_offer_05_replaceSpace: CMakeFiles/sword_to_offer_05_replaceSpace.dir/rule
-
-.PHONY : sword_to_offer_05_replaceSpace
-
-# clean rule for target.
-CMakeFiles/sword_to_offer_05_replaceSpace.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_replaceSpace.dir\build.make CMakeFiles/sword_to_offer_05_replaceSpace.dir/clean
-.PHONY : CMakeFiles/sword_to_offer_05_replaceSpace.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
