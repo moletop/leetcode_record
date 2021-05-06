@@ -6,6 +6,7 @@
     -- src/541.Reverse_String_II.cpp will be compiled to bin/541.Reverse_String_II
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/sword_to_offer_05_space_replace.cpp will be compiled to bin/sword_to_offer_05_space_replace
+    -- src/sword_to_offer_58_left_rotate_String_II.cpp will be compiled to bin/sword_to_offer_58_left_rotate_String_II
     -- src/test.cpp will be compiled to bin/test
 -- Configuring done
 -- Generating done

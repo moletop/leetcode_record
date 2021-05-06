@@ -53,10 +53,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1.sum_of_two_number.dir/DependInfo.cmake"
   "CMakeFiles/344.Reverse_String.dir/DependInfo.cmake"
-  "CMakeFiles/test.dir/DependInfo.cmake"
   "CMakeFiles/sword_to_offer_05_space_replace.dir/DependInfo.cmake"
   "CMakeFiles/202.happy_number.dir/DependInfo.cmake"
   "CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake"
   "CMakeFiles/454.4_Sum_II.dir/DependInfo.cmake"
   "CMakeFiles/541.Reverse_String_II.dir/DependInfo.cmake"
+  "CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/DependInfo.cmake"
+  "CMakeFiles/test.dir/DependInfo.cmake"
   )

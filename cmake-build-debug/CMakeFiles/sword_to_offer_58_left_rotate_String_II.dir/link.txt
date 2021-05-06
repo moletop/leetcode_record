@@ -1,0 +1,3 @@
+"D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir/objects.a
+"D:\Program Files (x86)\MinGw\mingw64\bin\ar.exe" cr CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir/objects.a @CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\objects1.rsp
+"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir/objects.a -Wl,--no-whole-archive -o sword_to_offer_58_left_rotate_String_II.exe -Wl,--out-implib,libsword_to_offer_58_left_rotate_String_II.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\linklibs.rsp

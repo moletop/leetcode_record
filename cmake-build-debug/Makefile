@@ -155,19 +155,6 @@ depend:
 .PHONY : 344.Reverse_String/fast
 
 #=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
-
-#=============================================================================
 # Target rules for targets named sword_to_offer_05_space_replace
 
 # Build rule for target.
@@ -231,6 +218,32 @@ CMakeCXXCompilerId/fast:
 541.Reverse_String_II/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/build
 .PHONY : 541.Reverse_String_II/fast
+
+#=============================================================================
+# Target rules for targets named sword_to_offer_58_left_rotate_String_II
+
+# Build rule for target.
+sword_to_offer_58_left_rotate_String_II: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sword_to_offer_58_left_rotate_String_II
+.PHONY : sword_to_offer_58_left_rotate_String_II
+
+# fast build rule for target.
+sword_to_offer_58_left_rotate_String_II/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/build
+.PHONY : sword_to_offer_58_left_rotate_String_II/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 1.sum_of_two_number.obj: 1.sum_of_two_number.cpp.obj
 
@@ -421,6 +434,33 @@ sword_to_offer_05_space_replace.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/sword_to_offer_05_space_replace.cpp.s
 .PHONY : sword_to_offer_05_space_replace.cpp.s
 
+sword_to_offer_58_left_rotate_String_II.obj: sword_to_offer_58_left_rotate_String_II.cpp.obj
+
+.PHONY : sword_to_offer_58_left_rotate_String_II.obj
+
+# target to build an object file
+sword_to_offer_58_left_rotate_String_II.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/sword_to_offer_58_left_rotate_String_II.cpp.obj
+.PHONY : sword_to_offer_58_left_rotate_String_II.cpp.obj
+
+sword_to_offer_58_left_rotate_String_II.i: sword_to_offer_58_left_rotate_String_II.cpp.i
+
+.PHONY : sword_to_offer_58_left_rotate_String_II.i
+
+# target to preprocess a source file
+sword_to_offer_58_left_rotate_String_II.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/sword_to_offer_58_left_rotate_String_II.cpp.i
+.PHONY : sword_to_offer_58_left_rotate_String_II.cpp.i
+
+sword_to_offer_58_left_rotate_String_II.s: sword_to_offer_58_left_rotate_String_II.cpp.s
+
+.PHONY : sword_to_offer_58_left_rotate_String_II.s
+
+# target to generate assembly for a file
+sword_to_offer_58_left_rotate_String_II.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/sword_to_offer_58_left_rotate_String_II.cpp.s
+.PHONY : sword_to_offer_58_left_rotate_String_II.cpp.s
+
 test.obj: test.cpp.obj
 
 .PHONY : test.obj
@@ -463,6 +503,7 @@ help:
 	@echo ... 541.Reverse_String_II
 	@echo ... CMakeCXXCompilerId
 	@echo ... sword_to_offer_05_space_replace
+	@echo ... sword_to_offer_58_left_rotate_String_II
 	@echo ... test
 	@echo ... 1.sum_of_two_number.obj
 	@echo ... 1.sum_of_two_number.i
@@ -485,6 +526,9 @@ help:
 	@echo ... sword_to_offer_05_space_replace.obj
 	@echo ... sword_to_offer_05_space_replace.i
 	@echo ... sword_to_offer_05_space_replace.s
+	@echo ... sword_to_offer_58_left_rotate_String_II.obj
+	@echo ... sword_to_offer_58_left_rotate_String_II.i
+	@echo ... sword_to_offer_58_left_rotate_String_II.s
 	@echo ... test.obj
 	@echo ... test.i
 	@echo ... test.s
