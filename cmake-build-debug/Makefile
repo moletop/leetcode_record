@@ -219,6 +219,19 @@ CMakeCXXCompilerId/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/build
 .PHONY : 454.4_Sum_II/fast
 
+#=============================================================================
+# Target rules for targets named 541.Reverse_String_II
+
+# Build rule for target.
+541.Reverse_String_II: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 541.Reverse_String_II
+.PHONY : 541.Reverse_String_II
+
+# fast build rule for target.
+541.Reverse_String_II/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/build
+.PHONY : 541.Reverse_String_II/fast
+
 1.sum_of_two_number.obj: 1.sum_of_two_number.cpp.obj
 
 .PHONY : 1.sum_of_two_number.obj
@@ -327,6 +340,33 @@ CMakeCXXCompilerId/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/454.4_Sum_II.cpp.s
 .PHONY : 454.4_Sum_II.cpp.s
 
+541.Reverse_String_II.obj: 541.Reverse_String_II.cpp.obj
+
+.PHONY : 541.Reverse_String_II.obj
+
+# target to build an object file
+541.Reverse_String_II.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/541.Reverse_String_II.cpp.obj
+.PHONY : 541.Reverse_String_II.cpp.obj
+
+541.Reverse_String_II.i: 541.Reverse_String_II.cpp.i
+
+.PHONY : 541.Reverse_String_II.i
+
+# target to preprocess a source file
+541.Reverse_String_II.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/541.Reverse_String_II.cpp.i
+.PHONY : 541.Reverse_String_II.cpp.i
+
+541.Reverse_String_II.s: 541.Reverse_String_II.cpp.s
+
+.PHONY : 541.Reverse_String_II.s
+
+# target to generate assembly for a file
+541.Reverse_String_II.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/541.Reverse_String_II.cpp.s
+.PHONY : 541.Reverse_String_II.cpp.s
+
 CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 
 .PHONY : CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj
@@ -420,6 +460,7 @@ help:
 	@echo ... 202.happy_number
 	@echo ... 344.Reverse_String
 	@echo ... 454.4_Sum_II
+	@echo ... 541.Reverse_String_II
 	@echo ... CMakeCXXCompilerId
 	@echo ... sword_to_offer_05_space_replace
 	@echo ... test
@@ -435,6 +476,9 @@ help:
 	@echo ... 454.4_Sum_II.obj
 	@echo ... 454.4_Sum_II.i
 	@echo ... 454.4_Sum_II.s
+	@echo ... 541.Reverse_String_II.obj
+	@echo ... 541.Reverse_String_II.i
+	@echo ... 541.Reverse_String_II.s
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.i
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.s

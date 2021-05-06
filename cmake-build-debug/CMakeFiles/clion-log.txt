@@ -3,6 +3,7 @@
     -- src/202.happy_number.cpp will be compiled to bin/202.happy_number
     -- src/344.Reverse_String.cpp will be compiled to bin/344.Reverse_String
     -- src/454.4_Sum_II.cpp will be compiled to bin/454.4_Sum_II
+    -- src/541.Reverse_String_II.cpp will be compiled to bin/541.Reverse_String_II
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/sword_to_offer_05_space_replace.cpp will be compiled to bin/sword_to_offer_05_space_replace
     -- src/test.cpp will be compiled to bin/test
