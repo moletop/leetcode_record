@@ -56,6 +56,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/sword_to_offer_05_space_replace.dir/DependInfo.cmake"
   "CMakeFiles/202.happy_number.dir/DependInfo.cmake"
   "CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake"
+  "CMakeFiles/232.Implement_Queue_using_Stacks.dir/DependInfo.cmake"
   "CMakeFiles/454.4_Sum_II.dir/DependInfo.cmake"
   "CMakeFiles/541.Reverse_String_II.dir/DependInfo.cmake"
   "CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/DependInfo.cmake"

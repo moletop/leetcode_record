@@ -194,6 +194,19 @@ CMakeCXXCompilerId/fast:
 .PHONY : CMakeCXXCompilerId/fast
 
 #=============================================================================
+# Target rules for targets named 232.Implement_Queue_using_Stacks
+
+# Build rule for target.
+232.Implement_Queue_using_Stacks: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 232.Implement_Queue_using_Stacks
+.PHONY : 232.Implement_Queue_using_Stacks
+
+# fast build rule for target.
+232.Implement_Queue_using_Stacks/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/build
+.PHONY : 232.Implement_Queue_using_Stacks/fast
+
+#=============================================================================
 # Target rules for targets named 454.4_Sum_II
 
 # Build rule for target.
@@ -298,6 +311,33 @@ test/fast:
 202.happy_number.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\202.happy_number.dir\build.make CMakeFiles/202.happy_number.dir/202.happy_number.cpp.s
 .PHONY : 202.happy_number.cpp.s
+
+232.Implement_Queue_using_Stacks.obj: 232.Implement_Queue_using_Stacks.cpp.obj
+
+.PHONY : 232.Implement_Queue_using_Stacks.obj
+
+# target to build an object file
+232.Implement_Queue_using_Stacks.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/232.Implement_Queue_using_Stacks.cpp.obj
+.PHONY : 232.Implement_Queue_using_Stacks.cpp.obj
+
+232.Implement_Queue_using_Stacks.i: 232.Implement_Queue_using_Stacks.cpp.i
+
+.PHONY : 232.Implement_Queue_using_Stacks.i
+
+# target to preprocess a source file
+232.Implement_Queue_using_Stacks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/232.Implement_Queue_using_Stacks.cpp.i
+.PHONY : 232.Implement_Queue_using_Stacks.cpp.i
+
+232.Implement_Queue_using_Stacks.s: 232.Implement_Queue_using_Stacks.cpp.s
+
+.PHONY : 232.Implement_Queue_using_Stacks.s
+
+# target to generate assembly for a file
+232.Implement_Queue_using_Stacks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/232.Implement_Queue_using_Stacks.cpp.s
+.PHONY : 232.Implement_Queue_using_Stacks.cpp.s
 
 344.Reverse_String.obj: 344.Reverse_String.cpp.obj
 
@@ -498,6 +538,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 1.sum_of_two_number
 	@echo ... 202.happy_number
+	@echo ... 232.Implement_Queue_using_Stacks
 	@echo ... 344.Reverse_String
 	@echo ... 454.4_Sum_II
 	@echo ... 541.Reverse_String_II
@@ -511,6 +552,9 @@ help:
 	@echo ... 202.happy_number.obj
 	@echo ... 202.happy_number.i
 	@echo ... 202.happy_number.s
+	@echo ... 232.Implement_Queue_using_Stacks.obj
+	@echo ... 232.Implement_Queue_using_Stacks.i
+	@echo ... 232.Implement_Queue_using_Stacks.s
 	@echo ... 344.Reverse_String.obj
 	@echo ... 344.Reverse_String.i
 	@echo ... 344.Reverse_String.s
