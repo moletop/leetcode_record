@@ -1,0 +1,3 @@
+"D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\20.Valid_Parentheses.dir/objects.a
+"D:\Program Files (x86)\MinGw\mingw64\bin\ar.exe" cr CMakeFiles\20.Valid_Parentheses.dir/objects.a @CMakeFiles\20.Valid_Parentheses.dir\objects1.rsp
+"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\20.Valid_Parentheses.dir/objects.a -Wl,--no-whole-archive -o 20.Valid_Parentheses.exe -Wl,--out-implib,lib20.Valid_Parentheses.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\20.Valid_Parentheses.dir\linklibs.rsp

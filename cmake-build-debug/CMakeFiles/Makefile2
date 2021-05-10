@@ -73,12 +73,13 @@ CMAKE_BINARY_DIR = "E:\leetcode c++\cmake-build-debug"
 # The main recursive "all" target.
 all: CMakeFiles/1.sum_of_two_number.dir/all
 all: CMakeFiles/344.Reverse_String.dir/all
-all: CMakeFiles/sword_to_offer_05_space_replace.dir/all
+all: CMakeFiles/541.Reverse_String_II.dir/all
+all: CMakeFiles/20.Valid_Parentheses.dir/all
 all: CMakeFiles/202.happy_number.dir/all
 all: CMakeFiles/CMakeCXXCompilerId.dir/all
 all: CMakeFiles/232.Implement_Queue_using_Stacks.dir/all
 all: CMakeFiles/454.4_Sum_II.dir/all
-all: CMakeFiles/541.Reverse_String_II.dir/all
+all: CMakeFiles/sword_to_offer_05_space_replace.dir/all
 all: CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/all
 all: CMakeFiles/test.dir/all
 
@@ -92,12 +93,13 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/1.sum_of_two_number.dir/clean
 clean: CMakeFiles/344.Reverse_String.dir/clean
-clean: CMakeFiles/sword_to_offer_05_space_replace.dir/clean
+clean: CMakeFiles/541.Reverse_String_II.dir/clean
+clean: CMakeFiles/20.Valid_Parentheses.dir/clean
 clean: CMakeFiles/202.happy_number.dir/clean
 clean: CMakeFiles/CMakeCXXCompilerId.dir/clean
 clean: CMakeFiles/232.Implement_Queue_using_Stacks.dir/clean
 clean: CMakeFiles/454.4_Sum_II.dir/clean
-clean: CMakeFiles/541.Reverse_String_II.dir/clean
+clean: CMakeFiles/sword_to_offer_05_space_replace.dir/clean
 clean: CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/clean
 clean: CMakeFiles/test.dir/clean
 
@@ -137,7 +139,7 @@ CMakeFiles/1.sum_of_two_number.dir/clean:
 CMakeFiles/344.Reverse_String.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target 344.Reverse_String"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target 344.Reverse_String"
 .PHONY : CMakeFiles/344.Reverse_String.dir/all
 
 # Build rule for subdir invocation for target.
@@ -158,31 +160,58 @@ CMakeFiles/344.Reverse_String.dir/clean:
 .PHONY : CMakeFiles/344.Reverse_String.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sword_to_offer_05_space_replace.dir
+# Target rules for target CMakeFiles/541.Reverse_String_II.dir
 
 # All Build rule for target.
-CMakeFiles/sword_to_offer_05_space_replace.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target sword_to_offer_05_space_replace"
-.PHONY : CMakeFiles/sword_to_offer_05_space_replace.dir/all
+CMakeFiles/541.Reverse_String_II.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target 541.Reverse_String_II"
+.PHONY : CMakeFiles/541.Reverse_String_II.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sword_to_offer_05_space_replace.dir/rule: cmake_check_build_system
+CMakeFiles/541.Reverse_String_II.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\leetcode c++\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sword_to_offer_05_space_replace.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/541.Reverse_String_II.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\leetcode c++\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/sword_to_offer_05_space_replace.dir/rule
+.PHONY : CMakeFiles/541.Reverse_String_II.dir/rule
 
 # Convenience name for target.
-sword_to_offer_05_space_replace: CMakeFiles/sword_to_offer_05_space_replace.dir/rule
+541.Reverse_String_II: CMakeFiles/541.Reverse_String_II.dir/rule
 
-.PHONY : sword_to_offer_05_space_replace
+.PHONY : 541.Reverse_String_II
 
 # clean rule for target.
-CMakeFiles/sword_to_offer_05_space_replace.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/clean
-.PHONY : CMakeFiles/sword_to_offer_05_space_replace.dir/clean
+CMakeFiles/541.Reverse_String_II.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/clean
+.PHONY : CMakeFiles/541.Reverse_String_II.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/20.Valid_Parentheses.dir
+
+# All Build rule for target.
+CMakeFiles/20.Valid_Parentheses.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target 20.Valid_Parentheses"
+.PHONY : CMakeFiles/20.Valid_Parentheses.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/20.Valid_Parentheses.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\leetcode c++\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/20.Valid_Parentheses.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\leetcode c++\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/20.Valid_Parentheses.dir/rule
+
+# Convenience name for target.
+20.Valid_Parentheses: CMakeFiles/20.Valid_Parentheses.dir/rule
+
+.PHONY : 20.Valid_Parentheses
+
+# clean rule for target.
+CMakeFiles/20.Valid_Parentheses.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/clean
+.PHONY : CMakeFiles/20.Valid_Parentheses.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/202.happy_number.dir
@@ -191,7 +220,7 @@ CMakeFiles/sword_to_offer_05_space_replace.dir/clean:
 CMakeFiles/202.happy_number.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\202.happy_number.dir\build.make CMakeFiles/202.happy_number.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\202.happy_number.dir\build.make CMakeFiles/202.happy_number.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target 202.happy_number"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target 202.happy_number"
 .PHONY : CMakeFiles/202.happy_number.dir/all
 
 # Build rule for subdir invocation for target.
@@ -218,7 +247,7 @@ CMakeFiles/202.happy_number.dir/clean:
 CMakeFiles/CMakeCXXCompilerId.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target CMakeCXXCompilerId"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target CMakeCXXCompilerId"
 .PHONY : CMakeFiles/CMakeCXXCompilerId.dir/all
 
 # Build rule for subdir invocation for target.
@@ -245,7 +274,7 @@ CMakeFiles/CMakeCXXCompilerId.dir/clean:
 CMakeFiles/232.Implement_Queue_using_Stacks.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target 232.Implement_Queue_using_Stacks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target 232.Implement_Queue_using_Stacks"
 .PHONY : CMakeFiles/232.Implement_Queue_using_Stacks.dir/all
 
 # Build rule for subdir invocation for target.
@@ -272,7 +301,7 @@ CMakeFiles/232.Implement_Queue_using_Stacks.dir/clean:
 CMakeFiles/454.4_Sum_II.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=9,10 "Built target 454.4_Sum_II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target 454.4_Sum_II"
 .PHONY : CMakeFiles/454.4_Sum_II.dir/all
 
 # Build rule for subdir invocation for target.
@@ -293,31 +322,31 @@ CMakeFiles/454.4_Sum_II.dir/clean:
 .PHONY : CMakeFiles/454.4_Sum_II.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/541.Reverse_String_II.dir
+# Target rules for target CMakeFiles/sword_to_offer_05_space_replace.dir
 
 # All Build rule for target.
-CMakeFiles/541.Reverse_String_II.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=11,12 "Built target 541.Reverse_String_II"
-.PHONY : CMakeFiles/541.Reverse_String_II.dir/all
+CMakeFiles/sword_to_offer_05_space_replace.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=17,18 "Built target sword_to_offer_05_space_replace"
+.PHONY : CMakeFiles/sword_to_offer_05_space_replace.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/541.Reverse_String_II.dir/rule: cmake_check_build_system
+CMakeFiles/sword_to_offer_05_space_replace.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\leetcode c++\cmake-build-debug\CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/541.Reverse_String_II.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/sword_to_offer_05_space_replace.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\leetcode c++\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles/541.Reverse_String_II.dir/rule
+.PHONY : CMakeFiles/sword_to_offer_05_space_replace.dir/rule
 
 # Convenience name for target.
-541.Reverse_String_II: CMakeFiles/541.Reverse_String_II.dir/rule
+sword_to_offer_05_space_replace: CMakeFiles/sword_to_offer_05_space_replace.dir/rule
 
-.PHONY : 541.Reverse_String_II
+.PHONY : sword_to_offer_05_space_replace
 
 # clean rule for target.
-CMakeFiles/541.Reverse_String_II.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/clean
-.PHONY : CMakeFiles/541.Reverse_String_II.dir/clean
+CMakeFiles/sword_to_offer_05_space_replace.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/clean
+.PHONY : CMakeFiles/sword_to_offer_05_space_replace.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir
@@ -326,7 +355,7 @@ CMakeFiles/541.Reverse_String_II.dir/clean:
 CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=17,18 "Built target sword_to_offer_58_left_rotate_String_II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=19,20 "Built target sword_to_offer_58_left_rotate_String_II"
 .PHONY : CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/all
 
 # Build rule for subdir invocation for target.
@@ -353,7 +382,7 @@ CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/clean:
 CMakeFiles/test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=19,20 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=21,22 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.

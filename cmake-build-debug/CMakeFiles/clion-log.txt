@@ -1,5 +1,6 @@
 "D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\leetcode c++"
     -- src/1.sum_of_two_number.cpp will be compiled to bin/1.sum_of_two_number
+    -- src/20.Valid_Parentheses.cpp will be compiled to bin/20.Valid_Parentheses
     -- src/202.happy_number.cpp will be compiled to bin/202.happy_number
     -- src/232.Implement_Queue_using_Stacks.cpp will be compiled to bin/232.Implement_Queue_using_Stacks
     -- src/344.Reverse_String.cpp will be compiled to bin/344.Reverse_String

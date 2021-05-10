@@ -155,17 +155,30 @@ depend:
 .PHONY : 344.Reverse_String/fast
 
 #=============================================================================
-# Target rules for targets named sword_to_offer_05_space_replace
+# Target rules for targets named 541.Reverse_String_II
 
 # Build rule for target.
-sword_to_offer_05_space_replace: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sword_to_offer_05_space_replace
-.PHONY : sword_to_offer_05_space_replace
+541.Reverse_String_II: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 541.Reverse_String_II
+.PHONY : 541.Reverse_String_II
 
 # fast build rule for target.
-sword_to_offer_05_space_replace/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/build
-.PHONY : sword_to_offer_05_space_replace/fast
+541.Reverse_String_II/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/build
+.PHONY : 541.Reverse_String_II/fast
+
+#=============================================================================
+# Target rules for targets named 20.Valid_Parentheses
+
+# Build rule for target.
+20.Valid_Parentheses: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 20.Valid_Parentheses
+.PHONY : 20.Valid_Parentheses
+
+# fast build rule for target.
+20.Valid_Parentheses/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/build
+.PHONY : 20.Valid_Parentheses/fast
 
 #=============================================================================
 # Target rules for targets named 202.happy_number
@@ -220,17 +233,17 @@ CMakeCXXCompilerId/fast:
 .PHONY : 454.4_Sum_II/fast
 
 #=============================================================================
-# Target rules for targets named 541.Reverse_String_II
+# Target rules for targets named sword_to_offer_05_space_replace
 
 # Build rule for target.
-541.Reverse_String_II: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 541.Reverse_String_II
-.PHONY : 541.Reverse_String_II
+sword_to_offer_05_space_replace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sword_to_offer_05_space_replace
+.PHONY : sword_to_offer_05_space_replace
 
 # fast build rule for target.
-541.Reverse_String_II/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/build
-.PHONY : 541.Reverse_String_II/fast
+sword_to_offer_05_space_replace/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/build
+.PHONY : sword_to_offer_05_space_replace/fast
 
 #=============================================================================
 # Target rules for targets named sword_to_offer_58_left_rotate_String_II
@@ -284,6 +297,33 @@ test/fast:
 1.sum_of_two_number.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.sum_of_two_number.dir\build.make CMakeFiles/1.sum_of_two_number.dir/1.sum_of_two_number.cpp.s
 .PHONY : 1.sum_of_two_number.cpp.s
+
+20.Valid_Parentheses.obj: 20.Valid_Parentheses.cpp.obj
+
+.PHONY : 20.Valid_Parentheses.obj
+
+# target to build an object file
+20.Valid_Parentheses.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/20.Valid_Parentheses.cpp.obj
+.PHONY : 20.Valid_Parentheses.cpp.obj
+
+20.Valid_Parentheses.i: 20.Valid_Parentheses.cpp.i
+
+.PHONY : 20.Valid_Parentheses.i
+
+# target to preprocess a source file
+20.Valid_Parentheses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/20.Valid_Parentheses.cpp.i
+.PHONY : 20.Valid_Parentheses.cpp.i
+
+20.Valid_Parentheses.s: 20.Valid_Parentheses.cpp.s
+
+.PHONY : 20.Valid_Parentheses.s
+
+# target to generate assembly for a file
+20.Valid_Parentheses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/20.Valid_Parentheses.cpp.s
+.PHONY : 20.Valid_Parentheses.cpp.s
 
 202.happy_number.obj: 202.happy_number.cpp.obj
 
@@ -537,6 +577,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1.sum_of_two_number
+	@echo ... 20.Valid_Parentheses
 	@echo ... 202.happy_number
 	@echo ... 232.Implement_Queue_using_Stacks
 	@echo ... 344.Reverse_String
@@ -549,6 +590,9 @@ help:
 	@echo ... 1.sum_of_two_number.obj
 	@echo ... 1.sum_of_two_number.i
 	@echo ... 1.sum_of_two_number.s
+	@echo ... 20.Valid_Parentheses.obj
+	@echo ... 20.Valid_Parentheses.i
+	@echo ... 20.Valid_Parentheses.s
 	@echo ... 202.happy_number.obj
 	@echo ... 202.happy_number.i
 	@echo ... 202.happy_number.s

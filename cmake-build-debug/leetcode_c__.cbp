@@ -101,8 +101,8 @@
 					<DistClean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="sword_to_offer_05_space_replace">
-				<Option output="E:/leetcode c++/cmake-build-debug/sword_to_offer_05_space_replace.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="541.Reverse_String_II">
+				<Option output="E:/leetcode c++/cmake-build-debug/541.Reverse_String_II.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/leetcode c++/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -116,14 +116,14 @@
 					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 sword_to_offer_05_space_replace"/>
+					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 541.Reverse_String_II"/>
 					<CompileFile command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="sword_to_offer_05_space_replace/fast">
-				<Option output="E:/leetcode c++/cmake-build-debug/sword_to_offer_05_space_replace.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="541.Reverse_String_II/fast">
+				<Option output="E:/leetcode c++/cmake-build-debug/541.Reverse_String_II.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/leetcode c++/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -137,7 +137,49 @@
 					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 sword_to_offer_05_space_replace/fast"/>
+					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 541.Reverse_String_II/fast"/>
+					<CompileFile command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="20.Valid_Parentheses">
+				<Option output="E:/leetcode c++/cmake-build-debug/20.Valid_Parentheses.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/leetcode c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 20.Valid_Parentheses"/>
+					<CompileFile command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="20.Valid_Parentheses/fast">
+				<Option output="E:/leetcode c++/cmake-build-debug/20.Valid_Parentheses.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/leetcode c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 20.Valid_Parentheses/fast"/>
 					<CompileFile command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -311,8 +353,8 @@
 					<DistClean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="541.Reverse_String_II">
-				<Option output="E:/leetcode c++/cmake-build-debug/541.Reverse_String_II.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sword_to_offer_05_space_replace">
+				<Option output="E:/leetcode c++/cmake-build-debug/sword_to_offer_05_space_replace.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/leetcode c++/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -326,14 +368,14 @@
 					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 541.Reverse_String_II"/>
+					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 sword_to_offer_05_space_replace"/>
 					<CompileFile command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="541.Reverse_String_II/fast">
-				<Option output="E:/leetcode c++/cmake-build-debug/541.Reverse_String_II.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="sword_to_offer_05_space_replace/fast">
+				<Option output="E:/leetcode c++/cmake-build-debug/sword_to_offer_05_space_replace.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/leetcode c++/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -347,7 +389,7 @@
 					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 541.Reverse_String_II/fast"/>
+					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 sword_to_offer_05_space_replace/fast"/>
 					<CompileFile command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -460,6 +502,9 @@
 		</Build>
 		<Unit filename="E:/leetcode c++/1.sum_of_two_number.cpp">
 			<Option target="1.sum_of_two_number"/>
+		</Unit>
+		<Unit filename="E:/leetcode c++/20.Valid_Parentheses.cpp">
+			<Option target="20.Valid_Parentheses"/>
 		</Unit>
 		<Unit filename="E:/leetcode c++/202.happy_number.cpp">
 			<Option target="202.happy_number"/>
