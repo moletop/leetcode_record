@@ -2,7 +2,9 @@
 
 > To be a better man every day!
 
-## 语言:c++
+## 语言：c++
+
+## 个人题解：https://leetcode-cn.com/profile/articles/
 
 ## 知识体系刷题:
 
@@ -24,4 +26,3 @@
 
 9.动态规划
 
-> 
