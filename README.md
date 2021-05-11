@@ -6,6 +6,8 @@
 
 ## 个人题解：https://leetcode-cn.com/profile/articles/
 
+*code 文件夹中的 cpp文件 是每道题的完整代码（可编译运行）*
+
 ## 知识体系刷题:
 
 1.数组
