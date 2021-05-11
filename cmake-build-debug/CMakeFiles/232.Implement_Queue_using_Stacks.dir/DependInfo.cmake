@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/leetcode c++/232.Implement_Queue_using_Stacks.cpp" "E:/leetcode c++/cmake-build-debug/CMakeFiles/232.Implement_Queue_using_Stacks.dir/232.Implement_Queue_using_Stacks.cpp.obj"
+  "E:/leetcode c++/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp" "E:/leetcode c++/cmake-build-debug/CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

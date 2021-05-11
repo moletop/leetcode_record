@@ -75,27 +75,27 @@ include CMakeFiles/202.happy_number.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/202.happy_number.dir/flags.make
 
-CMakeFiles/202.happy_number.dir/202.happy_number.cpp.obj: CMakeFiles/202.happy_number.dir/flags.make
-CMakeFiles/202.happy_number.dir/202.happy_number.cpp.obj: ../202.happy_number.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/202.happy_number.dir/202.happy_number.cpp.obj"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\202.happy_number.dir\202.happy_number.cpp.obj -c "E:\leetcode c++\202.happy_number.cpp"
+CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.obj: CMakeFiles/202.happy_number.dir/flags.make
+CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.obj: ../code/5.栈与堆栈/202.happy_number.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.obj"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\202.happy_number.dir\code\5.栈与堆栈\202.happy_number.cpp.obj -c "E:\leetcode c++\code\5.栈与堆栈\202.happy_number.cpp"
 
-CMakeFiles/202.happy_number.dir/202.happy_number.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/202.happy_number.dir/202.happy_number.cpp.i"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\leetcode c++\202.happy_number.cpp" > CMakeFiles\202.happy_number.dir\202.happy_number.cpp.i
+CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.i"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\leetcode c++\code\5.栈与堆栈\202.happy_number.cpp" > CMakeFiles\202.happy_number.dir\code\5.栈与堆栈\202.happy_number.cpp.i
 
-CMakeFiles/202.happy_number.dir/202.happy_number.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/202.happy_number.dir/202.happy_number.cpp.s"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\leetcode c++\202.happy_number.cpp" -o CMakeFiles\202.happy_number.dir\202.happy_number.cpp.s
+CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.s"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\leetcode c++\code\5.栈与堆栈\202.happy_number.cpp" -o CMakeFiles\202.happy_number.dir\code\5.栈与堆栈\202.happy_number.cpp.s
 
 # Object files for target 202.happy_number
 202_happy_number_OBJECTS = \
-"CMakeFiles/202.happy_number.dir/202.happy_number.cpp.obj"
+"CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.obj"
 
 # External object files for target 202.happy_number
 202_happy_number_EXTERNAL_OBJECTS =
 
-202.happy_number.exe: CMakeFiles/202.happy_number.dir/202.happy_number.cpp.obj
+202.happy_number.exe: CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.obj
 202.happy_number.exe: CMakeFiles/202.happy_number.dir/build.make
 202.happy_number.exe: CMakeFiles/202.happy_number.dir/linklibs.rsp
 202.happy_number.exe: CMakeFiles/202.happy_number.dir/objects1.rsp

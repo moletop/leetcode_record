@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/leetcode c++/202.happy_number.cpp" "E:/leetcode c++/cmake-build-debug/CMakeFiles/202.happy_number.dir/202.happy_number.cpp.obj"
+  "E:/leetcode c++/code/5.栈与堆栈/202.happy_number.cpp" "E:/leetcode c++/cmake-build-debug/CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

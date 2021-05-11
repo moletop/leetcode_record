@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/leetcode c++/541.Reverse_String_II.cpp" "E:/leetcode c++/cmake-build-debug/CMakeFiles/541.Reverse_String_II.dir/541.Reverse_String_II.cpp.obj"
+  "E:/leetcode c++/code/4.字符串/541.Reverse_String_II.cpp" "E:/leetcode c++/cmake-build-debug/CMakeFiles/541.Reverse_String_II.dir/code/4.字符串/541.Reverse_String_II.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

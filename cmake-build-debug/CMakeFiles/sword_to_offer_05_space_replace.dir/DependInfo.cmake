@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/leetcode c++/sword_to_offer_05_space_replace.cpp" "E:/leetcode c++/cmake-build-debug/CMakeFiles/sword_to_offer_05_space_replace.dir/sword_to_offer_05_space_replace.cpp.obj"
+  "E:/leetcode c++/code/4.字符串/sword_to_offer_05_space_replace.cpp" "E:/leetcode c++/cmake-build-debug/CMakeFiles/sword_to_offer_05_space_replace.dir/code/4.字符串/sword_to_offer_05_space_replace.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

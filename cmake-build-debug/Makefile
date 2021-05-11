@@ -129,56 +129,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 1.sum_of_two_number
+# Target rules for targets named sword_to_offer_05_space_replace
 
 # Build rule for target.
-1.sum_of_two_number: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1.sum_of_two_number
-.PHONY : 1.sum_of_two_number
+sword_to_offer_05_space_replace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sword_to_offer_05_space_replace
+.PHONY : sword_to_offer_05_space_replace
 
 # fast build rule for target.
-1.sum_of_two_number/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.sum_of_two_number.dir\build.make CMakeFiles/1.sum_of_two_number.dir/build
-.PHONY : 1.sum_of_two_number/fast
-
-#=============================================================================
-# Target rules for targets named 344.Reverse_String
-
-# Build rule for target.
-344.Reverse_String: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 344.Reverse_String
-.PHONY : 344.Reverse_String
-
-# fast build rule for target.
-344.Reverse_String/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/build
-.PHONY : 344.Reverse_String/fast
-
-#=============================================================================
-# Target rules for targets named 541.Reverse_String_II
-
-# Build rule for target.
-541.Reverse_String_II: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 541.Reverse_String_II
-.PHONY : 541.Reverse_String_II
-
-# fast build rule for target.
-541.Reverse_String_II/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/build
-.PHONY : 541.Reverse_String_II/fast
-
-#=============================================================================
-# Target rules for targets named 20.Valid_Parentheses
-
-# Build rule for target.
-20.Valid_Parentheses: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 20.Valid_Parentheses
-.PHONY : 20.Valid_Parentheses
-
-# fast build rule for target.
-20.Valid_Parentheses/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/build
-.PHONY : 20.Valid_Parentheses/fast
+sword_to_offer_05_space_replace/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/build
+.PHONY : sword_to_offer_05_space_replace/fast
 
 #=============================================================================
 # Target rules for targets named 202.happy_number
@@ -207,17 +168,30 @@ CMakeCXXCompilerId/fast:
 .PHONY : CMakeCXXCompilerId/fast
 
 #=============================================================================
-# Target rules for targets named 232.Implement_Queue_using_Stacks
+# Target rules for targets named 1.sum_of_two_number
 
 # Build rule for target.
-232.Implement_Queue_using_Stacks: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 232.Implement_Queue_using_Stacks
-.PHONY : 232.Implement_Queue_using_Stacks
+1.sum_of_two_number: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1.sum_of_two_number
+.PHONY : 1.sum_of_two_number
 
 # fast build rule for target.
-232.Implement_Queue_using_Stacks/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/build
-.PHONY : 232.Implement_Queue_using_Stacks/fast
+1.sum_of_two_number/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.sum_of_two_number.dir\build.make CMakeFiles/1.sum_of_two_number.dir/build
+.PHONY : 1.sum_of_two_number/fast
+
+#=============================================================================
+# Target rules for targets named 344.Reverse_String
+
+# Build rule for target.
+344.Reverse_String: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 344.Reverse_String
+.PHONY : 344.Reverse_String
+
+# fast build rule for target.
+344.Reverse_String/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/build
+.PHONY : 344.Reverse_String/fast
 
 #=============================================================================
 # Target rules for targets named 454.4_Sum_II
@@ -233,17 +207,17 @@ CMakeCXXCompilerId/fast:
 .PHONY : 454.4_Sum_II/fast
 
 #=============================================================================
-# Target rules for targets named sword_to_offer_05_space_replace
+# Target rules for targets named 541.Reverse_String_II
 
 # Build rule for target.
-sword_to_offer_05_space_replace: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sword_to_offer_05_space_replace
-.PHONY : sword_to_offer_05_space_replace
+541.Reverse_String_II: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 541.Reverse_String_II
+.PHONY : 541.Reverse_String_II
 
 # fast build rule for target.
-sword_to_offer_05_space_replace/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/build
-.PHONY : sword_to_offer_05_space_replace/fast
+541.Reverse_String_II/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/build
+.PHONY : 541.Reverse_String_II/fast
 
 #=============================================================================
 # Target rules for targets named sword_to_offer_58_left_rotate_String_II
@@ -259,6 +233,45 @@ sword_to_offer_58_left_rotate_String_II/fast:
 .PHONY : sword_to_offer_58_left_rotate_String_II/fast
 
 #=============================================================================
+# Target rules for targets named 1047.Remove_All_Adjacent_Duplicates_In_String
+
+# Build rule for target.
+1047.Remove_All_Adjacent_Duplicates_In_String: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 1047.Remove_All_Adjacent_Duplicates_In_String
+.PHONY : 1047.Remove_All_Adjacent_Duplicates_In_String
+
+# fast build rule for target.
+1047.Remove_All_Adjacent_Duplicates_In_String/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1047.Remove_All_Adjacent_Duplicates_In_String.dir\build.make CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/build
+.PHONY : 1047.Remove_All_Adjacent_Duplicates_In_String/fast
+
+#=============================================================================
+# Target rules for targets named 20.Valid_Parentheses
+
+# Build rule for target.
+20.Valid_Parentheses: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 20.Valid_Parentheses
+.PHONY : 20.Valid_Parentheses
+
+# fast build rule for target.
+20.Valid_Parentheses/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/build
+.PHONY : 20.Valid_Parentheses/fast
+
+#=============================================================================
+# Target rules for targets named 232.Implement_Queue_using_Stacks
+
+# Build rule for target.
+232.Implement_Queue_using_Stacks: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 232.Implement_Queue_using_Stacks
+.PHONY : 232.Implement_Queue_using_Stacks
+
+# fast build rule for target.
+232.Implement_Queue_using_Stacks/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/build
+.PHONY : 232.Implement_Queue_using_Stacks/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -270,195 +283,6 @@ test: cmake_check_build_system
 test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
-
-1.sum_of_two_number.obj: 1.sum_of_two_number.cpp.obj
-
-.PHONY : 1.sum_of_two_number.obj
-
-# target to build an object file
-1.sum_of_two_number.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.sum_of_two_number.dir\build.make CMakeFiles/1.sum_of_two_number.dir/1.sum_of_two_number.cpp.obj
-.PHONY : 1.sum_of_two_number.cpp.obj
-
-1.sum_of_two_number.i: 1.sum_of_two_number.cpp.i
-
-.PHONY : 1.sum_of_two_number.i
-
-# target to preprocess a source file
-1.sum_of_two_number.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.sum_of_two_number.dir\build.make CMakeFiles/1.sum_of_two_number.dir/1.sum_of_two_number.cpp.i
-.PHONY : 1.sum_of_two_number.cpp.i
-
-1.sum_of_two_number.s: 1.sum_of_two_number.cpp.s
-
-.PHONY : 1.sum_of_two_number.s
-
-# target to generate assembly for a file
-1.sum_of_two_number.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.sum_of_two_number.dir\build.make CMakeFiles/1.sum_of_two_number.dir/1.sum_of_two_number.cpp.s
-.PHONY : 1.sum_of_two_number.cpp.s
-
-20.Valid_Parentheses.obj: 20.Valid_Parentheses.cpp.obj
-
-.PHONY : 20.Valid_Parentheses.obj
-
-# target to build an object file
-20.Valid_Parentheses.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/20.Valid_Parentheses.cpp.obj
-.PHONY : 20.Valid_Parentheses.cpp.obj
-
-20.Valid_Parentheses.i: 20.Valid_Parentheses.cpp.i
-
-.PHONY : 20.Valid_Parentheses.i
-
-# target to preprocess a source file
-20.Valid_Parentheses.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/20.Valid_Parentheses.cpp.i
-.PHONY : 20.Valid_Parentheses.cpp.i
-
-20.Valid_Parentheses.s: 20.Valid_Parentheses.cpp.s
-
-.PHONY : 20.Valid_Parentheses.s
-
-# target to generate assembly for a file
-20.Valid_Parentheses.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/20.Valid_Parentheses.cpp.s
-.PHONY : 20.Valid_Parentheses.cpp.s
-
-202.happy_number.obj: 202.happy_number.cpp.obj
-
-.PHONY : 202.happy_number.obj
-
-# target to build an object file
-202.happy_number.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\202.happy_number.dir\build.make CMakeFiles/202.happy_number.dir/202.happy_number.cpp.obj
-.PHONY : 202.happy_number.cpp.obj
-
-202.happy_number.i: 202.happy_number.cpp.i
-
-.PHONY : 202.happy_number.i
-
-# target to preprocess a source file
-202.happy_number.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\202.happy_number.dir\build.make CMakeFiles/202.happy_number.dir/202.happy_number.cpp.i
-.PHONY : 202.happy_number.cpp.i
-
-202.happy_number.s: 202.happy_number.cpp.s
-
-.PHONY : 202.happy_number.s
-
-# target to generate assembly for a file
-202.happy_number.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\202.happy_number.dir\build.make CMakeFiles/202.happy_number.dir/202.happy_number.cpp.s
-.PHONY : 202.happy_number.cpp.s
-
-232.Implement_Queue_using_Stacks.obj: 232.Implement_Queue_using_Stacks.cpp.obj
-
-.PHONY : 232.Implement_Queue_using_Stacks.obj
-
-# target to build an object file
-232.Implement_Queue_using_Stacks.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/232.Implement_Queue_using_Stacks.cpp.obj
-.PHONY : 232.Implement_Queue_using_Stacks.cpp.obj
-
-232.Implement_Queue_using_Stacks.i: 232.Implement_Queue_using_Stacks.cpp.i
-
-.PHONY : 232.Implement_Queue_using_Stacks.i
-
-# target to preprocess a source file
-232.Implement_Queue_using_Stacks.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/232.Implement_Queue_using_Stacks.cpp.i
-.PHONY : 232.Implement_Queue_using_Stacks.cpp.i
-
-232.Implement_Queue_using_Stacks.s: 232.Implement_Queue_using_Stacks.cpp.s
-
-.PHONY : 232.Implement_Queue_using_Stacks.s
-
-# target to generate assembly for a file
-232.Implement_Queue_using_Stacks.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/232.Implement_Queue_using_Stacks.cpp.s
-.PHONY : 232.Implement_Queue_using_Stacks.cpp.s
-
-344.Reverse_String.obj: 344.Reverse_String.cpp.obj
-
-.PHONY : 344.Reverse_String.obj
-
-# target to build an object file
-344.Reverse_String.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/344.Reverse_String.cpp.obj
-.PHONY : 344.Reverse_String.cpp.obj
-
-344.Reverse_String.i: 344.Reverse_String.cpp.i
-
-.PHONY : 344.Reverse_String.i
-
-# target to preprocess a source file
-344.Reverse_String.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/344.Reverse_String.cpp.i
-.PHONY : 344.Reverse_String.cpp.i
-
-344.Reverse_String.s: 344.Reverse_String.cpp.s
-
-.PHONY : 344.Reverse_String.s
-
-# target to generate assembly for a file
-344.Reverse_String.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/344.Reverse_String.cpp.s
-.PHONY : 344.Reverse_String.cpp.s
-
-454.4_Sum_II.obj: 454.4_Sum_II.cpp.obj
-
-.PHONY : 454.4_Sum_II.obj
-
-# target to build an object file
-454.4_Sum_II.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/454.4_Sum_II.cpp.obj
-.PHONY : 454.4_Sum_II.cpp.obj
-
-454.4_Sum_II.i: 454.4_Sum_II.cpp.i
-
-.PHONY : 454.4_Sum_II.i
-
-# target to preprocess a source file
-454.4_Sum_II.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/454.4_Sum_II.cpp.i
-.PHONY : 454.4_Sum_II.cpp.i
-
-454.4_Sum_II.s: 454.4_Sum_II.cpp.s
-
-.PHONY : 454.4_Sum_II.s
-
-# target to generate assembly for a file
-454.4_Sum_II.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/454.4_Sum_II.cpp.s
-.PHONY : 454.4_Sum_II.cpp.s
-
-541.Reverse_String_II.obj: 541.Reverse_String_II.cpp.obj
-
-.PHONY : 541.Reverse_String_II.obj
-
-# target to build an object file
-541.Reverse_String_II.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/541.Reverse_String_II.cpp.obj
-.PHONY : 541.Reverse_String_II.cpp.obj
-
-541.Reverse_String_II.i: 541.Reverse_String_II.cpp.i
-
-.PHONY : 541.Reverse_String_II.i
-
-# target to preprocess a source file
-541.Reverse_String_II.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/541.Reverse_String_II.cpp.i
-.PHONY : 541.Reverse_String_II.cpp.i
-
-541.Reverse_String_II.s: 541.Reverse_String_II.cpp.s
-
-.PHONY : 541.Reverse_String_II.s
-
-# target to generate assembly for a file
-541.Reverse_String_II.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/541.Reverse_String_II.cpp.s
-.PHONY : 541.Reverse_String_II.cpp.s
 
 CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
 
@@ -487,86 +311,302 @@ CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CMakeCXXCompilerId.dir\build.make CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 .PHONY : CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
 
-sword_to_offer_05_space_replace.obj: sword_to_offer_05_space_replace.cpp.obj
+code/3.哈希表/1.sum_of_two_number.obj: code/3.哈希表/1.sum_of_two_number.cpp.obj
 
-.PHONY : sword_to_offer_05_space_replace.obj
-
-# target to build an object file
-sword_to_offer_05_space_replace.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/sword_to_offer_05_space_replace.cpp.obj
-.PHONY : sword_to_offer_05_space_replace.cpp.obj
-
-sword_to_offer_05_space_replace.i: sword_to_offer_05_space_replace.cpp.i
-
-.PHONY : sword_to_offer_05_space_replace.i
-
-# target to preprocess a source file
-sword_to_offer_05_space_replace.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/sword_to_offer_05_space_replace.cpp.i
-.PHONY : sword_to_offer_05_space_replace.cpp.i
-
-sword_to_offer_05_space_replace.s: sword_to_offer_05_space_replace.cpp.s
-
-.PHONY : sword_to_offer_05_space_replace.s
-
-# target to generate assembly for a file
-sword_to_offer_05_space_replace.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/sword_to_offer_05_space_replace.cpp.s
-.PHONY : sword_to_offer_05_space_replace.cpp.s
-
-sword_to_offer_58_left_rotate_String_II.obj: sword_to_offer_58_left_rotate_String_II.cpp.obj
-
-.PHONY : sword_to_offer_58_left_rotate_String_II.obj
+.PHONY : code/3.哈希表/1.sum_of_two_number.obj
 
 # target to build an object file
-sword_to_offer_58_left_rotate_String_II.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/sword_to_offer_58_left_rotate_String_II.cpp.obj
-.PHONY : sword_to_offer_58_left_rotate_String_II.cpp.obj
+code/3.哈希表/1.sum_of_two_number.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.sum_of_two_number.dir\build.make CMakeFiles/1.sum_of_two_number.dir/code/3.哈希表/1.sum_of_two_number.cpp.obj
+.PHONY : code/3.哈希表/1.sum_of_two_number.cpp.obj
 
-sword_to_offer_58_left_rotate_String_II.i: sword_to_offer_58_left_rotate_String_II.cpp.i
+code/3.哈希表/1.sum_of_two_number.i: code/3.哈希表/1.sum_of_two_number.cpp.i
 
-.PHONY : sword_to_offer_58_left_rotate_String_II.i
+.PHONY : code/3.哈希表/1.sum_of_two_number.i
 
 # target to preprocess a source file
-sword_to_offer_58_left_rotate_String_II.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/sword_to_offer_58_left_rotate_String_II.cpp.i
-.PHONY : sword_to_offer_58_left_rotate_String_II.cpp.i
+code/3.哈希表/1.sum_of_two_number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.sum_of_two_number.dir\build.make CMakeFiles/1.sum_of_two_number.dir/code/3.哈希表/1.sum_of_two_number.cpp.i
+.PHONY : code/3.哈希表/1.sum_of_two_number.cpp.i
 
-sword_to_offer_58_left_rotate_String_II.s: sword_to_offer_58_left_rotate_String_II.cpp.s
+code/3.哈希表/1.sum_of_two_number.s: code/3.哈希表/1.sum_of_two_number.cpp.s
 
-.PHONY : sword_to_offer_58_left_rotate_String_II.s
+.PHONY : code/3.哈希表/1.sum_of_two_number.s
 
 # target to generate assembly for a file
-sword_to_offer_58_left_rotate_String_II.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/sword_to_offer_58_left_rotate_String_II.cpp.s
-.PHONY : sword_to_offer_58_left_rotate_String_II.cpp.s
+code/3.哈希表/1.sum_of_two_number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.sum_of_two_number.dir\build.make CMakeFiles/1.sum_of_two_number.dir/code/3.哈希表/1.sum_of_two_number.cpp.s
+.PHONY : code/3.哈希表/1.sum_of_two_number.cpp.s
 
-test.obj: test.cpp.obj
+code/3.哈希表/454.4_Sum_II.obj: code/3.哈希表/454.4_Sum_II.cpp.obj
 
-.PHONY : test.obj
+.PHONY : code/3.哈希表/454.4_Sum_II.obj
 
 # target to build an object file
-test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.obj
-.PHONY : test.cpp.obj
+code/3.哈希表/454.4_Sum_II.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/code/3.哈希表/454.4_Sum_II.cpp.obj
+.PHONY : code/3.哈希表/454.4_Sum_II.cpp.obj
 
-test.i: test.cpp.i
+code/3.哈希表/454.4_Sum_II.i: code/3.哈希表/454.4_Sum_II.cpp.i
 
-.PHONY : test.i
+.PHONY : code/3.哈希表/454.4_Sum_II.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.i
-.PHONY : test.cpp.i
+code/3.哈希表/454.4_Sum_II.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/code/3.哈希表/454.4_Sum_II.cpp.i
+.PHONY : code/3.哈希表/454.4_Sum_II.cpp.i
 
-test.s: test.cpp.s
+code/3.哈希表/454.4_Sum_II.s: code/3.哈希表/454.4_Sum_II.cpp.s
 
-.PHONY : test.s
+.PHONY : code/3.哈希表/454.4_Sum_II.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/test.cpp.s
-.PHONY : test.cpp.s
+code/3.哈希表/454.4_Sum_II.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\454.4_Sum_II.dir\build.make CMakeFiles/454.4_Sum_II.dir/code/3.哈希表/454.4_Sum_II.cpp.s
+.PHONY : code/3.哈希表/454.4_Sum_II.cpp.s
+
+code/4.字符串/344.Reverse_String.obj: code/4.字符串/344.Reverse_String.cpp.obj
+
+.PHONY : code/4.字符串/344.Reverse_String.obj
+
+# target to build an object file
+code/4.字符串/344.Reverse_String.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.obj
+.PHONY : code/4.字符串/344.Reverse_String.cpp.obj
+
+code/4.字符串/344.Reverse_String.i: code/4.字符串/344.Reverse_String.cpp.i
+
+.PHONY : code/4.字符串/344.Reverse_String.i
+
+# target to preprocess a source file
+code/4.字符串/344.Reverse_String.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.i
+.PHONY : code/4.字符串/344.Reverse_String.cpp.i
+
+code/4.字符串/344.Reverse_String.s: code/4.字符串/344.Reverse_String.cpp.s
+
+.PHONY : code/4.字符串/344.Reverse_String.s
+
+# target to generate assembly for a file
+code/4.字符串/344.Reverse_String.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\344.Reverse_String.dir\build.make CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.s
+.PHONY : code/4.字符串/344.Reverse_String.cpp.s
+
+code/4.字符串/541.Reverse_String_II.obj: code/4.字符串/541.Reverse_String_II.cpp.obj
+
+.PHONY : code/4.字符串/541.Reverse_String_II.obj
+
+# target to build an object file
+code/4.字符串/541.Reverse_String_II.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/code/4.字符串/541.Reverse_String_II.cpp.obj
+.PHONY : code/4.字符串/541.Reverse_String_II.cpp.obj
+
+code/4.字符串/541.Reverse_String_II.i: code/4.字符串/541.Reverse_String_II.cpp.i
+
+.PHONY : code/4.字符串/541.Reverse_String_II.i
+
+# target to preprocess a source file
+code/4.字符串/541.Reverse_String_II.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/code/4.字符串/541.Reverse_String_II.cpp.i
+.PHONY : code/4.字符串/541.Reverse_String_II.cpp.i
+
+code/4.字符串/541.Reverse_String_II.s: code/4.字符串/541.Reverse_String_II.cpp.s
+
+.PHONY : code/4.字符串/541.Reverse_String_II.s
+
+# target to generate assembly for a file
+code/4.字符串/541.Reverse_String_II.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\541.Reverse_String_II.dir\build.make CMakeFiles/541.Reverse_String_II.dir/code/4.字符串/541.Reverse_String_II.cpp.s
+.PHONY : code/4.字符串/541.Reverse_String_II.cpp.s
+
+code/4.字符串/sword_to_offer_05_space_replace.obj: code/4.字符串/sword_to_offer_05_space_replace.cpp.obj
+
+.PHONY : code/4.字符串/sword_to_offer_05_space_replace.obj
+
+# target to build an object file
+code/4.字符串/sword_to_offer_05_space_replace.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/code/4.字符串/sword_to_offer_05_space_replace.cpp.obj
+.PHONY : code/4.字符串/sword_to_offer_05_space_replace.cpp.obj
+
+code/4.字符串/sword_to_offer_05_space_replace.i: code/4.字符串/sword_to_offer_05_space_replace.cpp.i
+
+.PHONY : code/4.字符串/sword_to_offer_05_space_replace.i
+
+# target to preprocess a source file
+code/4.字符串/sword_to_offer_05_space_replace.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/code/4.字符串/sword_to_offer_05_space_replace.cpp.i
+.PHONY : code/4.字符串/sword_to_offer_05_space_replace.cpp.i
+
+code/4.字符串/sword_to_offer_05_space_replace.s: code/4.字符串/sword_to_offer_05_space_replace.cpp.s
+
+.PHONY : code/4.字符串/sword_to_offer_05_space_replace.s
+
+# target to generate assembly for a file
+code/4.字符串/sword_to_offer_05_space_replace.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_05_space_replace.dir\build.make CMakeFiles/sword_to_offer_05_space_replace.dir/code/4.字符串/sword_to_offer_05_space_replace.cpp.s
+.PHONY : code/4.字符串/sword_to_offer_05_space_replace.cpp.s
+
+code/4.字符串/sword_to_offer_58_left_rotate_String_II.obj: code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.obj
+
+.PHONY : code/4.字符串/sword_to_offer_58_left_rotate_String_II.obj
+
+# target to build an object file
+code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.obj
+.PHONY : code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.obj
+
+code/4.字符串/sword_to_offer_58_left_rotate_String_II.i: code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.i
+
+.PHONY : code/4.字符串/sword_to_offer_58_left_rotate_String_II.i
+
+# target to preprocess a source file
+code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.i
+.PHONY : code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.i
+
+code/4.字符串/sword_to_offer_58_left_rotate_String_II.s: code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.s
+
+.PHONY : code/4.字符串/sword_to_offer_58_left_rotate_String_II.s
+
+# target to generate assembly for a file
+code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sword_to_offer_58_left_rotate_String_II.dir\build.make CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.s
+.PHONY : code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.s
+
+code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.obj: code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj
+
+.PHONY : code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.obj
+
+# target to build an object file
+code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1047.Remove_All_Adjacent_Duplicates_In_String.dir\build.make CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj
+.PHONY : code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj
+
+code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.i: code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.i
+
+.PHONY : code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.i
+
+# target to preprocess a source file
+code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1047.Remove_All_Adjacent_Duplicates_In_String.dir\build.make CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.i
+.PHONY : code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.i
+
+code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.s: code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s
+
+.PHONY : code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.s
+
+# target to generate assembly for a file
+code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1047.Remove_All_Adjacent_Duplicates_In_String.dir\build.make CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s
+.PHONY : code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s
+
+code/5.栈与堆栈/20.Valid_Parentheses.obj: code/5.栈与堆栈/20.Valid_Parentheses.cpp.obj
+
+.PHONY : code/5.栈与堆栈/20.Valid_Parentheses.obj
+
+# target to build an object file
+code/5.栈与堆栈/20.Valid_Parentheses.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.obj
+.PHONY : code/5.栈与堆栈/20.Valid_Parentheses.cpp.obj
+
+code/5.栈与堆栈/20.Valid_Parentheses.i: code/5.栈与堆栈/20.Valid_Parentheses.cpp.i
+
+.PHONY : code/5.栈与堆栈/20.Valid_Parentheses.i
+
+# target to preprocess a source file
+code/5.栈与堆栈/20.Valid_Parentheses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.i
+.PHONY : code/5.栈与堆栈/20.Valid_Parentheses.cpp.i
+
+code/5.栈与堆栈/20.Valid_Parentheses.s: code/5.栈与堆栈/20.Valid_Parentheses.cpp.s
+
+.PHONY : code/5.栈与堆栈/20.Valid_Parentheses.s
+
+# target to generate assembly for a file
+code/5.栈与堆栈/20.Valid_Parentheses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\20.Valid_Parentheses.dir\build.make CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.s
+.PHONY : code/5.栈与堆栈/20.Valid_Parentheses.cpp.s
+
+code/5.栈与堆栈/202.happy_number.obj: code/5.栈与堆栈/202.happy_number.cpp.obj
+
+.PHONY : code/5.栈与堆栈/202.happy_number.obj
+
+# target to build an object file
+code/5.栈与堆栈/202.happy_number.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\202.happy_number.dir\build.make CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.obj
+.PHONY : code/5.栈与堆栈/202.happy_number.cpp.obj
+
+code/5.栈与堆栈/202.happy_number.i: code/5.栈与堆栈/202.happy_number.cpp.i
+
+.PHONY : code/5.栈与堆栈/202.happy_number.i
+
+# target to preprocess a source file
+code/5.栈与堆栈/202.happy_number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\202.happy_number.dir\build.make CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.i
+.PHONY : code/5.栈与堆栈/202.happy_number.cpp.i
+
+code/5.栈与堆栈/202.happy_number.s: code/5.栈与堆栈/202.happy_number.cpp.s
+
+.PHONY : code/5.栈与堆栈/202.happy_number.s
+
+# target to generate assembly for a file
+code/5.栈与堆栈/202.happy_number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\202.happy_number.dir\build.make CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.s
+.PHONY : code/5.栈与堆栈/202.happy_number.cpp.s
+
+code/5.栈与堆栈/232.Implement_Queue_using_Stacks.obj: code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.obj
+
+.PHONY : code/5.栈与堆栈/232.Implement_Queue_using_Stacks.obj
+
+# target to build an object file
+code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.obj
+.PHONY : code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.obj
+
+code/5.栈与堆栈/232.Implement_Queue_using_Stacks.i: code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.i
+
+.PHONY : code/5.栈与堆栈/232.Implement_Queue_using_Stacks.i
+
+# target to preprocess a source file
+code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.i
+.PHONY : code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.i
+
+code/5.栈与堆栈/232.Implement_Queue_using_Stacks.s: code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.s
+
+.PHONY : code/5.栈与堆栈/232.Implement_Queue_using_Stacks.s
+
+# target to generate assembly for a file
+code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.s
+.PHONY : code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.s
+
+code/test.obj: code/test.cpp.obj
+
+.PHONY : code/test.obj
+
+# target to build an object file
+code/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/test.cpp.obj
+.PHONY : code/test.cpp.obj
+
+code/test.i: code/test.cpp.i
+
+.PHONY : code/test.i
+
+# target to preprocess a source file
+code/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/test.cpp.i
+.PHONY : code/test.cpp.i
+
+code/test.s: code/test.cpp.s
+
+.PHONY : code/test.s
+
+# target to generate assembly for a file
+code/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/code/test.cpp.s
+.PHONY : code/test.cpp.s
 
 # Help Target
 help:
@@ -577,6 +617,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1.sum_of_two_number
+	@echo ... 1047.Remove_All_Adjacent_Duplicates_In_String
 	@echo ... 20.Valid_Parentheses
 	@echo ... 202.happy_number
 	@echo ... 232.Implement_Queue_using_Stacks
@@ -587,39 +628,42 @@ help:
 	@echo ... sword_to_offer_05_space_replace
 	@echo ... sword_to_offer_58_left_rotate_String_II
 	@echo ... test
-	@echo ... 1.sum_of_two_number.obj
-	@echo ... 1.sum_of_two_number.i
-	@echo ... 1.sum_of_two_number.s
-	@echo ... 20.Valid_Parentheses.obj
-	@echo ... 20.Valid_Parentheses.i
-	@echo ... 20.Valid_Parentheses.s
-	@echo ... 202.happy_number.obj
-	@echo ... 202.happy_number.i
-	@echo ... 202.happy_number.s
-	@echo ... 232.Implement_Queue_using_Stacks.obj
-	@echo ... 232.Implement_Queue_using_Stacks.i
-	@echo ... 232.Implement_Queue_using_Stacks.s
-	@echo ... 344.Reverse_String.obj
-	@echo ... 344.Reverse_String.i
-	@echo ... 344.Reverse_String.s
-	@echo ... 454.4_Sum_II.obj
-	@echo ... 454.4_Sum_II.i
-	@echo ... 454.4_Sum_II.s
-	@echo ... 541.Reverse_String_II.obj
-	@echo ... 541.Reverse_String_II.i
-	@echo ... 541.Reverse_String_II.s
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.obj
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.i
 	@echo ... CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.s
-	@echo ... sword_to_offer_05_space_replace.obj
-	@echo ... sword_to_offer_05_space_replace.i
-	@echo ... sword_to_offer_05_space_replace.s
-	@echo ... sword_to_offer_58_left_rotate_String_II.obj
-	@echo ... sword_to_offer_58_left_rotate_String_II.i
-	@echo ... sword_to_offer_58_left_rotate_String_II.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... code/3.哈希表/1.sum_of_two_number.obj
+	@echo ... code/3.哈希表/1.sum_of_two_number.i
+	@echo ... code/3.哈希表/1.sum_of_two_number.s
+	@echo ... code/3.哈希表/454.4_Sum_II.obj
+	@echo ... code/3.哈希表/454.4_Sum_II.i
+	@echo ... code/3.哈希表/454.4_Sum_II.s
+	@echo ... code/4.字符串/344.Reverse_String.obj
+	@echo ... code/4.字符串/344.Reverse_String.i
+	@echo ... code/4.字符串/344.Reverse_String.s
+	@echo ... code/4.字符串/541.Reverse_String_II.obj
+	@echo ... code/4.字符串/541.Reverse_String_II.i
+	@echo ... code/4.字符串/541.Reverse_String_II.s
+	@echo ... code/4.字符串/sword_to_offer_05_space_replace.obj
+	@echo ... code/4.字符串/sword_to_offer_05_space_replace.i
+	@echo ... code/4.字符串/sword_to_offer_05_space_replace.s
+	@echo ... code/4.字符串/sword_to_offer_58_left_rotate_String_II.obj
+	@echo ... code/4.字符串/sword_to_offer_58_left_rotate_String_II.i
+	@echo ... code/4.字符串/sword_to_offer_58_left_rotate_String_II.s
+	@echo ... code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.obj
+	@echo ... code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.i
+	@echo ... code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.s
+	@echo ... code/5.栈与堆栈/20.Valid_Parentheses.obj
+	@echo ... code/5.栈与堆栈/20.Valid_Parentheses.i
+	@echo ... code/5.栈与堆栈/20.Valid_Parentheses.s
+	@echo ... code/5.栈与堆栈/202.happy_number.obj
+	@echo ... code/5.栈与堆栈/202.happy_number.i
+	@echo ... code/5.栈与堆栈/202.happy_number.s
+	@echo ... code/5.栈与堆栈/232.Implement_Queue_using_Stacks.obj
+	@echo ... code/5.栈与堆栈/232.Implement_Queue_using_Stacks.i
+	@echo ... code/5.栈与堆栈/232.Implement_Queue_using_Stacks.s
+	@echo ... code/test.obj
+	@echo ... code/test.i
+	@echo ... code/test.s
 .PHONY : help
 
 

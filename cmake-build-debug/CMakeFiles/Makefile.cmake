@@ -51,15 +51,16 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/1.sum_of_two_number.dir/DependInfo.cmake"
-  "CMakeFiles/344.Reverse_String.dir/DependInfo.cmake"
-  "CMakeFiles/541.Reverse_String_II.dir/DependInfo.cmake"
-  "CMakeFiles/20.Valid_Parentheses.dir/DependInfo.cmake"
+  "CMakeFiles/sword_to_offer_05_space_replace.dir/DependInfo.cmake"
   "CMakeFiles/202.happy_number.dir/DependInfo.cmake"
   "CMakeFiles/CMakeCXXCompilerId.dir/DependInfo.cmake"
-  "CMakeFiles/232.Implement_Queue_using_Stacks.dir/DependInfo.cmake"
+  "CMakeFiles/1.sum_of_two_number.dir/DependInfo.cmake"
+  "CMakeFiles/344.Reverse_String.dir/DependInfo.cmake"
   "CMakeFiles/454.4_Sum_II.dir/DependInfo.cmake"
-  "CMakeFiles/sword_to_offer_05_space_replace.dir/DependInfo.cmake"
+  "CMakeFiles/541.Reverse_String_II.dir/DependInfo.cmake"
   "CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/DependInfo.cmake"
+  "CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/DependInfo.cmake"
+  "CMakeFiles/20.Valid_Parentheses.dir/DependInfo.cmake"
+  "CMakeFiles/232.Implement_Queue_using_Stacks.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
   )
