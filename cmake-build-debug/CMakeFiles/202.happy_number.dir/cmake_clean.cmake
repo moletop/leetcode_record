@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "202.happy_number.exe"
   "202.happy_number.exe.manifest"
   "202.happy_number.pdb"
-  "CMakeFiles/202.happy_number.dir/code/5.栈与堆栈/202.happy_number.cpp.obj"
+  "CMakeFiles/202.happy_number.dir/code/5.stack_and_queue/202.happy_number.cpp.obj"
   "lib202.happy_number.dll.a"
 )
 

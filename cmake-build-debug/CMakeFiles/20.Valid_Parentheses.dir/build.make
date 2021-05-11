@@ -75,27 +75,27 @@ include CMakeFiles/20.Valid_Parentheses.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/20.Valid_Parentheses.dir/flags.make
 
-CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.obj: CMakeFiles/20.Valid_Parentheses.dir/flags.make
-CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.obj: ../code/5.栈与堆栈/20.Valid_Parentheses.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.obj"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\20.Valid_Parentheses.dir\code\5.栈与堆栈\20.Valid_Parentheses.cpp.obj -c "E:\leetcode c++\code\5.栈与堆栈\20.Valid_Parentheses.cpp"
+CMakeFiles/20.Valid_Parentheses.dir/code/5.stack_and_queue/20.Valid_Parentheses.cpp.obj: CMakeFiles/20.Valid_Parentheses.dir/flags.make
+CMakeFiles/20.Valid_Parentheses.dir/code/5.stack_and_queue/20.Valid_Parentheses.cpp.obj: ../code/5.stack\ and\ queue/20.Valid_Parentheses.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/20.Valid_Parentheses.dir/code/5.stack_and_queue/20.Valid_Parentheses.cpp.obj"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\20.Valid_Parentheses.dir\code\5.stack_and_queue\20.Valid_Parentheses.cpp.obj -c "E:\leetcode c++\code\5.stack and queue\20.Valid_Parentheses.cpp"
 
-CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.i"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\leetcode c++\code\5.栈与堆栈\20.Valid_Parentheses.cpp" > CMakeFiles\20.Valid_Parentheses.dir\code\5.栈与堆栈\20.Valid_Parentheses.cpp.i
+CMakeFiles/20.Valid_Parentheses.dir/code/5.stack_and_queue/20.Valid_Parentheses.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/20.Valid_Parentheses.dir/code/5.stack_and_queue/20.Valid_Parentheses.cpp.i"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\leetcode c++\code\5.stack and queue\20.Valid_Parentheses.cpp" > CMakeFiles\20.Valid_Parentheses.dir\code\5.stack_and_queue\20.Valid_Parentheses.cpp.i
 
-CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.s"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\leetcode c++\code\5.栈与堆栈\20.Valid_Parentheses.cpp" -o CMakeFiles\20.Valid_Parentheses.dir\code\5.栈与堆栈\20.Valid_Parentheses.cpp.s
+CMakeFiles/20.Valid_Parentheses.dir/code/5.stack_and_queue/20.Valid_Parentheses.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/20.Valid_Parentheses.dir/code/5.stack_and_queue/20.Valid_Parentheses.cpp.s"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\leetcode c++\code\5.stack and queue\20.Valid_Parentheses.cpp" -o CMakeFiles\20.Valid_Parentheses.dir\code\5.stack_and_queue\20.Valid_Parentheses.cpp.s
 
 # Object files for target 20.Valid_Parentheses
 20_Valid_Parentheses_OBJECTS = \
-"CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.obj"
+"CMakeFiles/20.Valid_Parentheses.dir/code/5.stack_and_queue/20.Valid_Parentheses.cpp.obj"
 
 # External object files for target 20.Valid_Parentheses
 20_Valid_Parentheses_EXTERNAL_OBJECTS =
 
-20.Valid_Parentheses.exe: CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.obj
+20.Valid_Parentheses.exe: CMakeFiles/20.Valid_Parentheses.dir/code/5.stack_and_queue/20.Valid_Parentheses.cpp.obj
 20.Valid_Parentheses.exe: CMakeFiles/20.Valid_Parentheses.dir/build.make
 20.Valid_Parentheses.exe: CMakeFiles/20.Valid_Parentheses.dir/linklibs.rsp
 20.Valid_Parentheses.exe: CMakeFiles/20.Valid_Parentheses.dir/objects1.rsp

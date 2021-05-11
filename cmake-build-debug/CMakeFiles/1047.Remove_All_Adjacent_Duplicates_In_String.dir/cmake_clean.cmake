@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "1047.Remove_All_Adjacent_Duplicates_In_String.exe"
   "1047.Remove_All_Adjacent_Duplicates_In_String.exe.manifest"
   "1047.Remove_All_Adjacent_Duplicates_In_String.pdb"
-  "CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj"
+  "CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj"
   "lib1047.Remove_All_Adjacent_Duplicates_In_String.dll.a"
 )
 

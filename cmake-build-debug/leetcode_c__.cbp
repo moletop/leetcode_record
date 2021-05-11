@@ -545,34 +545,34 @@
 		<Unit filename="E:/leetcode c++/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp">
 			<Option target="CMakeCXXCompilerId"/>
 		</Unit>
-		<Unit filename="E:/leetcode c++/code/3.哈希表/1.sum_of_two_number.cpp">
+		<Unit filename="E:/leetcode c++/code/3.hash table/1.sum_of_two_number.cpp">
 			<Option target="1.sum_of_two_number"/>
 		</Unit>
-		<Unit filename="E:/leetcode c++/code/3.哈希表/454.4_Sum_II.cpp">
+		<Unit filename="E:/leetcode c++/code/3.hash table/454.4_Sum_II.cpp">
 			<Option target="454.4_Sum_II"/>
 		</Unit>
-		<Unit filename="E:/leetcode c++/code/4.字符串/344.Reverse_String.cpp">
+		<Unit filename="E:/leetcode c++/code/4.string/344.Reverse_String.cpp">
 			<Option target="344.Reverse_String"/>
 		</Unit>
-		<Unit filename="E:/leetcode c++/code/4.字符串/541.Reverse_String_II.cpp">
+		<Unit filename="E:/leetcode c++/code/4.string/541.Reverse_String_II.cpp">
 			<Option target="541.Reverse_String_II"/>
 		</Unit>
-		<Unit filename="E:/leetcode c++/code/4.字符串/sword_to_offer_05_space_replace.cpp">
+		<Unit filename="E:/leetcode c++/code/4.string/sword_to_offer_05_space_replace.cpp">
 			<Option target="sword_to_offer_05_space_replace"/>
 		</Unit>
-		<Unit filename="E:/leetcode c++/code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp">
+		<Unit filename="E:/leetcode c++/code/4.string/sword_to_offer_58_left_rotate_String_II.cpp">
 			<Option target="sword_to_offer_58_left_rotate_String_II"/>
 		</Unit>
-		<Unit filename="E:/leetcode c++/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp">
+		<Unit filename="E:/leetcode c++/code/5.stack and queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp">
 			<Option target="1047.Remove_All_Adjacent_Duplicates_In_String"/>
 		</Unit>
-		<Unit filename="E:/leetcode c++/code/5.栈与堆栈/20.Valid_Parentheses.cpp">
+		<Unit filename="E:/leetcode c++/code/5.stack and queue/20.Valid_Parentheses.cpp">
 			<Option target="20.Valid_Parentheses"/>
 		</Unit>
-		<Unit filename="E:/leetcode c++/code/5.栈与堆栈/202.happy_number.cpp">
+		<Unit filename="E:/leetcode c++/code/5.stack and queue/202.happy_number.cpp">
 			<Option target="202.happy_number"/>
 		</Unit>
-		<Unit filename="E:/leetcode c++/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp">
+		<Unit filename="E:/leetcode c++/code/5.stack and queue/232.Implement_Queue_using_Stacks.cpp">
 			<Option target="232.Implement_Queue_using_Stacks"/>
 		</Unit>
 		<Unit filename="E:/leetcode c++/code/test.cpp">

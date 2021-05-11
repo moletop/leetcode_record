@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "454.4_Sum_II.exe"
   "454.4_Sum_II.exe.manifest"
   "454.4_Sum_II.pdb"
-  "CMakeFiles/454.4_Sum_II.dir/code/3.哈希表/454.4_Sum_II.cpp.obj"
+  "CMakeFiles/454.4_Sum_II.dir/code/3.hash_table/454.4_Sum_II.cpp.obj"
   "lib454.4_Sum_II.dll.a"
 )
 

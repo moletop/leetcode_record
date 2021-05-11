@@ -75,27 +75,27 @@ include CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/progress.ma
 # Include the compile flags for this target's objects.
 include CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/flags.make
 
-CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj: CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/flags.make
-CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj: ../code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1047.Remove_All_Adjacent_Duplicates_In_String.dir\code\5.栈与堆栈\1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj -c "E:\leetcode c++\code\5.栈与堆栈\1047.Remove_All_Adjacent_Duplicates_In_String.cpp"
+CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj: CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/flags.make
+CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj: ../code/5.stack\ and\ queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1047.Remove_All_Adjacent_Duplicates_In_String.dir\code\5.stack_and_queue\1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj -c "E:\leetcode c++\code\5.stack and queue\1047.Remove_All_Adjacent_Duplicates_In_String.cpp"
 
-CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.i"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\leetcode c++\code\5.栈与堆栈\1047.Remove_All_Adjacent_Duplicates_In_String.cpp" > CMakeFiles\1047.Remove_All_Adjacent_Duplicates_In_String.dir\code\5.栈与堆栈\1047.Remove_All_Adjacent_Duplicates_In_String.cpp.i
+CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.i"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\leetcode c++\code\5.stack and queue\1047.Remove_All_Adjacent_Duplicates_In_String.cpp" > CMakeFiles\1047.Remove_All_Adjacent_Duplicates_In_String.dir\code\5.stack_and_queue\1047.Remove_All_Adjacent_Duplicates_In_String.cpp.i
 
-CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\leetcode c++\code\5.栈与堆栈\1047.Remove_All_Adjacent_Duplicates_In_String.cpp" -o CMakeFiles\1047.Remove_All_Adjacent_Duplicates_In_String.dir\code\5.栈与堆栈\1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s
+CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\leetcode c++\code\5.stack and queue\1047.Remove_All_Adjacent_Duplicates_In_String.cpp" -o CMakeFiles\1047.Remove_All_Adjacent_Duplicates_In_String.dir\code\5.stack_and_queue\1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s
 
 # Object files for target 1047.Remove_All_Adjacent_Duplicates_In_String
 1047_Remove_All_Adjacent_Duplicates_In_String_OBJECTS = \
-"CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj"
+"CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj"
 
 # External object files for target 1047.Remove_All_Adjacent_Duplicates_In_String
 1047_Remove_All_Adjacent_Duplicates_In_String_EXTERNAL_OBJECTS =
 
-1047.Remove_All_Adjacent_Duplicates_In_String.exe: CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj
+1047.Remove_All_Adjacent_Duplicates_In_String.exe: CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj
 1047.Remove_All_Adjacent_Duplicates_In_String.exe: CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/build.make
 1047.Remove_All_Adjacent_Duplicates_In_String.exe: CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/linklibs.rsp
 1047.Remove_All_Adjacent_Duplicates_In_String.exe: CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/objects1.rsp

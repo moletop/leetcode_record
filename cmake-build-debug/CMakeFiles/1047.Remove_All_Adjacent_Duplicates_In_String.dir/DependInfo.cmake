@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/leetcode c++/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp" "E:/leetcode c++/cmake-build-debug/CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.栈与堆栈/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj"
+  "E:/leetcode c++/code/5.stack and queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp" "E:/leetcode c++/cmake-build-debug/CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

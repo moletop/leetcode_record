@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "20.Valid_Parentheses.exe"
   "20.Valid_Parentheses.exe.manifest"
   "20.Valid_Parentheses.pdb"
-  "CMakeFiles/20.Valid_Parentheses.dir/code/5.栈与堆栈/20.Valid_Parentheses.cpp.obj"
+  "CMakeFiles/20.Valid_Parentheses.dir/code/5.stack_and_queue/20.Valid_Parentheses.cpp.obj"
   "lib20.Valid_Parentheses.dll.a"
 )
 

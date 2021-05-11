@@ -75,27 +75,27 @@ include CMakeFiles/344.Reverse_String.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/344.Reverse_String.dir/flags.make
 
-CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.obj: CMakeFiles/344.Reverse_String.dir/flags.make
-CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.obj: ../code/4.字符串/344.Reverse_String.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.obj"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\344.Reverse_String.dir\code\4.字符串\344.Reverse_String.cpp.obj -c "E:\leetcode c++\code\4.字符串\344.Reverse_String.cpp"
+CMakeFiles/344.Reverse_String.dir/code/4.string/344.Reverse_String.cpp.obj: CMakeFiles/344.Reverse_String.dir/flags.make
+CMakeFiles/344.Reverse_String.dir/code/4.string/344.Reverse_String.cpp.obj: ../code/4.string/344.Reverse_String.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/344.Reverse_String.dir/code/4.string/344.Reverse_String.cpp.obj"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\344.Reverse_String.dir\code\4.string\344.Reverse_String.cpp.obj -c "E:\leetcode c++\code\4.string\344.Reverse_String.cpp"
 
-CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.i"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\leetcode c++\code\4.字符串\344.Reverse_String.cpp" > CMakeFiles\344.Reverse_String.dir\code\4.字符串\344.Reverse_String.cpp.i
+CMakeFiles/344.Reverse_String.dir/code/4.string/344.Reverse_String.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/344.Reverse_String.dir/code/4.string/344.Reverse_String.cpp.i"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\leetcode c++\code\4.string\344.Reverse_String.cpp" > CMakeFiles\344.Reverse_String.dir\code\4.string\344.Reverse_String.cpp.i
 
-CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.s"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\leetcode c++\code\4.字符串\344.Reverse_String.cpp" -o CMakeFiles\344.Reverse_String.dir\code\4.字符串\344.Reverse_String.cpp.s
+CMakeFiles/344.Reverse_String.dir/code/4.string/344.Reverse_String.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/344.Reverse_String.dir/code/4.string/344.Reverse_String.cpp.s"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\leetcode c++\code\4.string\344.Reverse_String.cpp" -o CMakeFiles\344.Reverse_String.dir\code\4.string\344.Reverse_String.cpp.s
 
 # Object files for target 344.Reverse_String
 344_Reverse_String_OBJECTS = \
-"CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.obj"
+"CMakeFiles/344.Reverse_String.dir/code/4.string/344.Reverse_String.cpp.obj"
 
 # External object files for target 344.Reverse_String
 344_Reverse_String_EXTERNAL_OBJECTS =
 
-344.Reverse_String.exe: CMakeFiles/344.Reverse_String.dir/code/4.字符串/344.Reverse_String.cpp.obj
+344.Reverse_String.exe: CMakeFiles/344.Reverse_String.dir/code/4.string/344.Reverse_String.cpp.obj
 344.Reverse_String.exe: CMakeFiles/344.Reverse_String.dir/build.make
 344.Reverse_String.exe: CMakeFiles/344.Reverse_String.dir/linklibs.rsp
 344.Reverse_String.exe: CMakeFiles/344.Reverse_String.dir/objects1.rsp

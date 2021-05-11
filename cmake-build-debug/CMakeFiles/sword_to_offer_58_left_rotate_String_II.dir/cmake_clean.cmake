@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/code/4.字符串/sword_to_offer_58_left_rotate_String_II.cpp.obj"
+  "CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/code/4.string/sword_to_offer_58_left_rotate_String_II.cpp.obj"
   "libsword_to_offer_58_left_rotate_String_II.dll.a"
   "sword_to_offer_58_left_rotate_String_II.exe"
   "sword_to_offer_58_left_rotate_String_II.exe.manifest"

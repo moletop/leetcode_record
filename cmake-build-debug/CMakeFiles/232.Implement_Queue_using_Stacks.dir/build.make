@@ -75,27 +75,27 @@ include CMakeFiles/232.Implement_Queue_using_Stacks.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/232.Implement_Queue_using_Stacks.dir/flags.make
 
-CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.obj: CMakeFiles/232.Implement_Queue_using_Stacks.dir/flags.make
-CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.obj: ../code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.obj"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\232.Implement_Queue_using_Stacks.dir\code\5.栈与堆栈\232.Implement_Queue_using_Stacks.cpp.obj -c "E:\leetcode c++\code\5.栈与堆栈\232.Implement_Queue_using_Stacks.cpp"
+CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.obj: CMakeFiles/232.Implement_Queue_using_Stacks.dir/flags.make
+CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.obj: ../code/5.stack\ and\ queue/232.Implement_Queue_using_Stacks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\leetcode c++\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.obj"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\232.Implement_Queue_using_Stacks.dir\code\5.stack_and_queue\232.Implement_Queue_using_Stacks.cpp.obj -c "E:\leetcode c++\code\5.stack and queue\232.Implement_Queue_using_Stacks.cpp"
 
-CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.i"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\leetcode c++\code\5.栈与堆栈\232.Implement_Queue_using_Stacks.cpp" > CMakeFiles\232.Implement_Queue_using_Stacks.dir\code\5.栈与堆栈\232.Implement_Queue_using_Stacks.cpp.i
+CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.i"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\leetcode c++\code\5.stack and queue\232.Implement_Queue_using_Stacks.cpp" > CMakeFiles\232.Implement_Queue_using_Stacks.dir\code\5.stack_and_queue\232.Implement_Queue_using_Stacks.cpp.i
 
-CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.s"
-	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\leetcode c++\code\5.栈与堆栈\232.Implement_Queue_using_Stacks.cpp" -o CMakeFiles\232.Implement_Queue_using_Stacks.dir\code\5.栈与堆栈\232.Implement_Queue_using_Stacks.cpp.s
+CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.s"
+	"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\leetcode c++\code\5.stack and queue\232.Implement_Queue_using_Stacks.cpp" -o CMakeFiles\232.Implement_Queue_using_Stacks.dir\code\5.stack_and_queue\232.Implement_Queue_using_Stacks.cpp.s
 
 # Object files for target 232.Implement_Queue_using_Stacks
 232_Implement_Queue_using_Stacks_OBJECTS = \
-"CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.obj"
+"CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.obj"
 
 # External object files for target 232.Implement_Queue_using_Stacks
 232_Implement_Queue_using_Stacks_EXTERNAL_OBJECTS =
 
-232.Implement_Queue_using_Stacks.exe: CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.栈与堆栈/232.Implement_Queue_using_Stacks.cpp.obj
+232.Implement_Queue_using_Stacks.exe: CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.obj
 232.Implement_Queue_using_Stacks.exe: CMakeFiles/232.Implement_Queue_using_Stacks.dir/build.make
 232.Implement_Queue_using_Stacks.exe: CMakeFiles/232.Implement_Queue_using_Stacks.dir/linklibs.rsp
 232.Implement_Queue_using_Stacks.exe: CMakeFiles/232.Implement_Queue_using_Stacks.dir/objects1.rsp
