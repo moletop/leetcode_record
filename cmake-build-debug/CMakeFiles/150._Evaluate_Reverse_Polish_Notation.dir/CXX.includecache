@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/leetcode c++/code/5.stack and queue/150._Evaluate_Reverse_Polish_Notation.cpp
+iostream
+-
+algorithm
+-
+iostream
+-
+vector
+-
+stack
+-
+

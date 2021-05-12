@@ -4,7 +4,7 @@
 
 ## 语言：c++
 
-## 个人题解：https://leetcode-cn.com/profile/articles/
+## 个人题解：https://leetcode-cn.com/mao-qiu-da-shu/
 
 *code 文件夹中的 cpp文件 是每道题的完整代码（可编译运行）*
 
