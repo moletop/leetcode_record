@@ -1,4 +1,5 @@
 "D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\leetcode c++"
+    -- src/239.Sliding_Window_Maximum.cpp will be compiled to bin/239.Sliding_Window_Maximum
     -- src/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- src/1.sum_of_two_number.cpp will be compiled to bin/1.sum_of_two_number
     -- src/454.4_Sum_II.cpp will be compiled to bin/454.4_Sum_II

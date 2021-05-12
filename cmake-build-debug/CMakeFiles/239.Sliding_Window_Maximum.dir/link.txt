@@ -1,0 +1,3 @@
+"D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\239.Sliding_Window_Maximum.dir/objects.a
+"D:\Program Files (x86)\MinGw\mingw64\bin\ar.exe" cr CMakeFiles\239.Sliding_Window_Maximum.dir/objects.a @CMakeFiles\239.Sliding_Window_Maximum.dir\objects1.rsp
+"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\239.Sliding_Window_Maximum.dir/objects.a -Wl,--no-whole-archive -o 239.Sliding_Window_Maximum.exe -Wl,--out-implib,lib239.Sliding_Window_Maximum.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\239.Sliding_Window_Maximum.dir\linklibs.rsp
