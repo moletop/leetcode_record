@@ -60,6 +60,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/541.Reverse_String_II.dir/DependInfo.cmake"
   "CMakeFiles/sword_to_offer_58_left_rotate_String_II.dir/DependInfo.cmake"
   "CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/DependInfo.cmake"
+  "CMakeFiles/150._Evaluate_Reverse_Polish_Notation.dir/DependInfo.cmake"
   "CMakeFiles/20.Valid_Parentheses.dir/DependInfo.cmake"
   "CMakeFiles/232.Implement_Queue_using_Stacks.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"

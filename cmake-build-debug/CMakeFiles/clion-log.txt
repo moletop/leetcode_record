@@ -7,6 +7,7 @@
     -- src/sword_to_offer_05_space_replace.cpp will be compiled to bin/sword_to_offer_05_space_replace
     -- src/sword_to_offer_58_left_rotate_String_II.cpp will be compiled to bin/sword_to_offer_58_left_rotate_String_II
     -- src/1047.Remove_All_Adjacent_Duplicates_In_String.cpp will be compiled to bin/1047.Remove_All_Adjacent_Duplicates_In_String
+    -- src/150._Evaluate_Reverse_Polish_Notation.cpp will be compiled to bin/150._Evaluate_Reverse_Polish_Notation
     -- src/20.Valid_Parentheses.cpp will be compiled to bin/20.Valid_Parentheses
     -- src/202.happy_number.cpp will be compiled to bin/202.happy_number
     -- src/232.Implement_Queue_using_Stacks.cpp will be compiled to bin/232.Implement_Queue_using_Stacks

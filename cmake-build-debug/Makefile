@@ -246,6 +246,19 @@ sword_to_offer_58_left_rotate_String_II/fast:
 .PHONY : 1047.Remove_All_Adjacent_Duplicates_In_String/fast
 
 #=============================================================================
+# Target rules for targets named 150._Evaluate_Reverse_Polish_Notation
+
+# Build rule for target.
+150._Evaluate_Reverse_Polish_Notation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 150._Evaluate_Reverse_Polish_Notation
+.PHONY : 150._Evaluate_Reverse_Polish_Notation
+
+# fast build rule for target.
+150._Evaluate_Reverse_Polish_Notation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\150._Evaluate_Reverse_Polish_Notation.dir\build.make CMakeFiles/150._Evaluate_Reverse_Polish_Notation.dir/build
+.PHONY : 150._Evaluate_Reverse_Polish_Notation/fast
+
+#=============================================================================
 # Target rules for targets named 20.Valid_Parentheses
 
 # Build rule for target.
@@ -500,6 +513,33 @@ code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1047.Remove_All_Adjacent_Duplicates_In_String.dir\build.make CMakeFiles/1047.Remove_All_Adjacent_Duplicates_In_String.dir/code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s
 .PHONY : code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.cpp.s
 
+code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.obj: code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.obj
+
+.PHONY : code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.obj
+
+# target to build an object file
+code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\150._Evaluate_Reverse_Polish_Notation.dir\build.make CMakeFiles/150._Evaluate_Reverse_Polish_Notation.dir/code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.obj
+.PHONY : code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.obj
+
+code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.i: code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.i
+
+.PHONY : code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.i
+
+# target to preprocess a source file
+code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\150._Evaluate_Reverse_Polish_Notation.dir\build.make CMakeFiles/150._Evaluate_Reverse_Polish_Notation.dir/code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.i
+.PHONY : code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.i
+
+code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.s: code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.s
+
+.PHONY : code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.s
+
+# target to generate assembly for a file
+code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\150._Evaluate_Reverse_Polish_Notation.dir\build.make CMakeFiles/150._Evaluate_Reverse_Polish_Notation.dir/code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.s
+.PHONY : code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.cpp.s
+
 code/5.stack_and_queue/20.Valid_Parentheses.obj: code/5.stack_and_queue/20.Valid_Parentheses.cpp.obj
 
 .PHONY : code/5.stack_and_queue/20.Valid_Parentheses.obj
@@ -618,6 +658,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 1.sum_of_two_number
 	@echo ... 1047.Remove_All_Adjacent_Duplicates_In_String
+	@echo ... 150._Evaluate_Reverse_Polish_Notation
 	@echo ... 20.Valid_Parentheses
 	@echo ... 202.happy_number
 	@echo ... 232.Implement_Queue_using_Stacks
@@ -652,6 +693,9 @@ help:
 	@echo ... code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.obj
 	@echo ... code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.i
 	@echo ... code/5.stack_and_queue/1047.Remove_All_Adjacent_Duplicates_In_String.s
+	@echo ... code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.obj
+	@echo ... code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.i
+	@echo ... code/5.stack_and_queue/150._Evaluate_Reverse_Polish_Notation.s
 	@echo ... code/5.stack_and_queue/20.Valid_Parentheses.obj
 	@echo ... code/5.stack_and_queue/20.Valid_Parentheses.i
 	@echo ... code/5.stack_and_queue/20.Valid_Parentheses.s
