@@ -31,7 +31,7 @@ public:
         }
         return ans;
     }
-}
+};
 
 
 
