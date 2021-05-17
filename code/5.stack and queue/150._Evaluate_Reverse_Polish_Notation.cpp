@@ -20,7 +20,7 @@ public:
                 if (tokens[i] == "*") stk.push(num2 * num1);
                 if (tokens[i] == "/") stk.push(num2 / num1);
             } else {
-                stk.push(stoi(tokens[i]));
+                    stk.push(stoi(tokens[i]));
             }
         }
         int result = stk.top();
