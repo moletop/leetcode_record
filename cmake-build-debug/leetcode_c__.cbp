@@ -563,6 +563,48 @@
 					<DistClean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="144.Binary_Tree_Preorder_Traversal">
+				<Option output="E:/leetcode c++/cmake-build-debug/144.Binary_Tree_Preorder_Traversal.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/leetcode c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 144.Binary_Tree_Preorder_Traversal"/>
+					<CompileFile command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="144.Binary_Tree_Preorder_Traversal/fast">
+				<Option output="E:/leetcode c++/cmake-build-debug/144.Binary_Tree_Preorder_Traversal.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/leetcode c++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files (x86)/MinGw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 144.Binary_Tree_Preorder_Traversal/fast"/>
+					<CompileFile command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files (x86)/MinGw/mingw64/bin/mingw32-make.exe -f &quot;E:/leetcode c++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="test">
 				<Option output="E:/leetcode c++/cmake-build-debug/test.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="E:/leetcode c++/cmake-build-debug"/>
@@ -664,6 +706,9 @@
 		</Unit>
 		<Unit filename="E:/leetcode c++/code/5.stack and queue/232.Implement_Queue_using_Stacks.cpp">
 			<Option target="232.Implement_Queue_using_Stacks"/>
+		</Unit>
+		<Unit filename="E:/leetcode c++/code/6.binary tree/144.Binary_Tree_Preorder_Traversal.cpp">
+			<Option target="144.Binary_Tree_Preorder_Traversal"/>
 		</Unit>
 		<Unit filename="E:/leetcode c++/code/test.cpp">
 			<Option target="test"/>

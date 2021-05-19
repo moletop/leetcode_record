@@ -298,6 +298,19 @@ sword_to_offer_58_left_rotate_String_II/fast:
 .PHONY : 232.Implement_Queue_using_Stacks/fast
 
 #=============================================================================
+# Target rules for targets named 144.Binary_Tree_Preorder_Traversal
+
+# Build rule for target.
+144.Binary_Tree_Preorder_Traversal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 144.Binary_Tree_Preorder_Traversal
+.PHONY : 144.Binary_Tree_Preorder_Traversal
+
+# fast build rule for target.
+144.Binary_Tree_Preorder_Traversal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\144.Binary_Tree_Preorder_Traversal.dir\build.make CMakeFiles/144.Binary_Tree_Preorder_Traversal.dir/build
+.PHONY : 144.Binary_Tree_Preorder_Traversal/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -661,6 +674,33 @@ code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\232.Implement_Queue_using_Stacks.dir\build.make CMakeFiles/232.Implement_Queue_using_Stacks.dir/code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.s
 .PHONY : code/5.stack_and_queue/232.Implement_Queue_using_Stacks.cpp.s
 
+code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.obj: code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.obj
+
+.PHONY : code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.obj
+
+# target to build an object file
+code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\144.Binary_Tree_Preorder_Traversal.dir\build.make CMakeFiles/144.Binary_Tree_Preorder_Traversal.dir/code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.obj
+.PHONY : code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.obj
+
+code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.i: code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.i
+
+.PHONY : code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.i
+
+# target to preprocess a source file
+code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\144.Binary_Tree_Preorder_Traversal.dir\build.make CMakeFiles/144.Binary_Tree_Preorder_Traversal.dir/code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.i
+.PHONY : code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.i
+
+code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.s: code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.s
+
+.PHONY : code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.s
+
+# target to generate assembly for a file
+code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\144.Binary_Tree_Preorder_Traversal.dir\build.make CMakeFiles/144.Binary_Tree_Preorder_Traversal.dir/code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.s
+.PHONY : code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.cpp.s
+
 code/test.obj: code/test.cpp.obj
 
 .PHONY : code/test.obj
@@ -698,6 +738,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... 1.sum_of_two_number
 	@echo ... 1047.Remove_All_Adjacent_Duplicates_In_String
+	@echo ... 144.Binary_Tree_Preorder_Traversal
 	@echo ... 150._Evaluate_Reverse_Polish_Notation
 	@echo ... 20.Valid_Parentheses
 	@echo ... 202.happy_number
@@ -749,6 +790,9 @@ help:
 	@echo ... code/5.stack_and_queue/232.Implement_Queue_using_Stacks.obj
 	@echo ... code/5.stack_and_queue/232.Implement_Queue_using_Stacks.i
 	@echo ... code/5.stack_and_queue/232.Implement_Queue_using_Stacks.s
+	@echo ... code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.obj
+	@echo ... code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.i
+	@echo ... code/6.binary_tree/144.Binary_Tree_Preorder_Traversal.s
 	@echo ... code/test.obj
 	@echo ... code/test.i
 	@echo ... code/test.s

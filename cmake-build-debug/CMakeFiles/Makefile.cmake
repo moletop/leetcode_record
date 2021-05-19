@@ -64,5 +64,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/150._Evaluate_Reverse_Polish_Notation.dir/DependInfo.cmake"
   "CMakeFiles/20.Valid_Parentheses.dir/DependInfo.cmake"
   "CMakeFiles/232.Implement_Queue_using_Stacks.dir/DependInfo.cmake"
+  "CMakeFiles/144.Binary_Tree_Preorder_Traversal.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
   )

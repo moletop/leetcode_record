@@ -11,6 +11,7 @@ E:/leetcode c++/cmake-build-debug/CMakeFiles/1047.Remove_All_Adjacent_Duplicates
 E:/leetcode c++/cmake-build-debug/CMakeFiles/150._Evaluate_Reverse_Polish_Notation.dir
 E:/leetcode c++/cmake-build-debug/CMakeFiles/20.Valid_Parentheses.dir
 E:/leetcode c++/cmake-build-debug/CMakeFiles/232.Implement_Queue_using_Stacks.dir
+E:/leetcode c++/cmake-build-debug/CMakeFiles/144.Binary_Tree_Preorder_Traversal.dir
 E:/leetcode c++/cmake-build-debug/CMakeFiles/test.dir
 E:/leetcode c++/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/leetcode c++/cmake-build-debug/CMakeFiles/rebuild_cache.dir

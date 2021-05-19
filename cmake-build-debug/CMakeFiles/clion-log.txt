@@ -12,6 +12,7 @@
     -- src/20.Valid_Parentheses.cpp will be compiled to bin/20.Valid_Parentheses
     -- src/202.happy_number.cpp will be compiled to bin/202.happy_number
     -- src/232.Implement_Queue_using_Stacks.cpp will be compiled to bin/232.Implement_Queue_using_Stacks
+    -- src/144.Binary_Tree_Preorder_Traversal.cpp will be compiled to bin/144.Binary_Tree_Preorder_Traversal
     -- src/test.cpp will be compiled to bin/test
 -- Configuring done
 -- Generating done
