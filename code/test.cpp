@@ -78,7 +78,7 @@ vector<int> postorderTraversal2(TreeNode *root) {
             }
         }
     }
-    return v
+    return v;
 }
 
 
