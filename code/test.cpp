@@ -11,7 +11,7 @@ struct TreeNode {
     TreeNode *left;
     TreeNode *right;
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
-};
+}
 
 vector<int> postorderTraversal1(TreeNode *root);
 vector<int> postorderTraversal2(TreeNode *root);
