@@ -1,3 +1,0 @@
-"D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\541.Reverse_String_II.dir/objects.a
-"D:\Program Files (x86)\MinGw\mingw64\bin\ar.exe" cr CMakeFiles\541.Reverse_String_II.dir/objects.a @CMakeFiles\541.Reverse_String_II.dir\objects1.rsp
-"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\541.Reverse_String_II.dir/objects.a -Wl,--no-whole-archive -o 541.Reverse_String_II.exe -Wl,--out-implib,lib541.Reverse_String_II.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\541.Reverse_String_II.dir\linklibs.rsp

@@ -1,3 +1,0 @@
-"D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\344.Reverse_String.dir/objects.a
-"D:\Program Files (x86)\MinGw\mingw64\bin\ar.exe" cr CMakeFiles\344.Reverse_String.dir/objects.a @CMakeFiles\344.Reverse_String.dir\objects1.rsp
-"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\344.Reverse_String.dir/objects.a -Wl,--no-whole-archive -o 344.Reverse_String.exe -Wl,--out-implib,lib344.Reverse_String.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\344.Reverse_String.dir\linklibs.rsp

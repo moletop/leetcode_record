@@ -1,3 +1,0 @@
-"D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\sword_to_offer_05_space_replace.dir/objects.a
-"D:\Program Files (x86)\MinGw\mingw64\bin\ar.exe" cr CMakeFiles\sword_to_offer_05_space_replace.dir/objects.a @CMakeFiles\sword_to_offer_05_space_replace.dir\objects1.rsp
-"D:\Program Files (x86)\MinGw\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\sword_to_offer_05_space_replace.dir/objects.a -Wl,--no-whole-archive -o sword_to_offer_05_space_replace.exe -Wl,--out-implib,libsword_to_offer_05_space_replace.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sword_to_offer_05_space_replace.dir\linklibs.rsp
