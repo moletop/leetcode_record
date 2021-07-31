@@ -20,7 +20,6 @@ public:
         return result;
     }
 };
-
 int main() {
     vector<int> g;
     vector<int> s;
@@ -40,7 +39,6 @@ int main() {
         if (getchar() == '\n')
             break;
     }
-
     result = solution.findContentChildren(g, s);
     cout << result << endl;
     return 0;
