@@ -23,8 +23,8 @@ public:
 };
 
 int main (){
-    vector<int > gas;
-    vector<int > cost;
+    vector<int> gas;
+    vector<int> cost;
     int result;
     Solution solution;
     int tem=0;
