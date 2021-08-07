@@ -18,16 +18,17 @@ public:
             else left[i]=1;//否则直接给1
         }
 
-        int right=0;
-        for(int i=n-1;i>=0;i--){//从倒数第二个开始 从右向左遍历
-            if(i<n-1&&ratings[i]>ratings[i+1]) {//如果当前的等级大于后一个，则用right记录下后一个+1的糖果数目
+
+        for(int i=n-1;i>=0;i--){// 从右向左遍历
+            int right=0;
+            if(i<n-1&&ratings[i]>ratings[i+1]) {//如果当前的等级大于后一个，则用right记录下(后一个+1)的糖果数目
                 right = left[i + 1] + 1;
             }
             else right=1;//否则等于1
             left[i]=max(left[i],right);
         }
 
-        for(int i ;i<left.size();i++){
+        for(int i=0 ;i<left.size();i++){
             result+=left[i];
         }
         return result;
