@@ -1,12 +1,19 @@
 #include <iostream>
-//#include <algorithm>
+#include <algorithm>
+#include <string>
 #include <vector>
 using namespace std;
 class Solution {
 public:
     void reverseString(vector<char>& s) {
-        for(int i = 0, j = s.size()-1;i<s.size()/2;i++,j--){
-            swap(s[i],s[j]);
+        string v =" ";
+        for (int i = 0; i < s.size(); ++i) {
+            v+= s[i];
+
+        }
+        reverse(v.begin(),v.end());
+        for (int i = 0; i < v.size(); ++i) {
+            s[i]=v[i];
         }
     }
 };
@@ -15,6 +22,12 @@ public:
 int main(){
     Solution solution;
     vector<char> s = {'s','h','o','y'};
+    string v =" ";
+    for (int i = 0; i < ; ++i) {
+        v+= s[i];
+
+    }
+
    solution.reverseString(s);
     for (int i = 0; i <s.size() ; ++i) {
         cout<<s[i]<<" "<<endl;
