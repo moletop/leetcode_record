@@ -1,31 +1,44 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-class Solution {
+class StockPrice {
 public:
-    int calculate(string s) {
-        int res = 0, num = 0, sign = 1;
-        stack<int> st;
-        for (const char& c : s) {
-            if (isdigit(c)) {
-                num = 10 * num + (c - '0');
-            } else if (c == '+' || c == '-') {
-                res += sign * num;
-                num = 0;
-                sign = (c == '+') ? 1 : -1;
-            } else if (c == '(') {
-                st.push(res);
-                st.push(sign);
-                res = 0;
-                sign = 1;
-            } else if (c == ')') {
-                res += sign * num;
-                num = 0;
-                res *= st.top(); st.pop();
-                res += st.top(); st.pop();
-            }
-        }
-        res += sign * num;
-        return res;
+    int a[1000000000];
+
+    StockPrice() {
     }
+
+    void update(int timestamp, int price) {
+        a[timestamp] = price;
+
+    }
+
+    int current() {
+        for(int i = 1000000000-1; i>0; i--){
+            if(a[i] != 0) return a[i];
+        }
+    }
+
+    int maximum() {
+        sort(a,a+1000000000-1);
+        return a[1000000000-1];
+    }
+
+    int minimum() {
+        int res=INT_MAX;
+        for(int i = 0; i< 100; i ++){
+            if(a[i] == 0) continue;
+            if(a[i] < res) res = a[i];
+        }
+        return res;
+}
 };
+
+/**
+ * Your StockPrice object will be instantiated and called as such:
+ * StockPrice* obj = new StockPrice();
+ * obj->update(timestamp,price);
+ * int param_2 = obj->current();
+ * int param_3 = obj->maximum();
+ * int param_4 = obj->minimum();
+ */
