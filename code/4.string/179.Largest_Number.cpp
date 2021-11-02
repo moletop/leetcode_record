@@ -19,9 +19,7 @@ public:
         for(int i = 0; i < n; i++){
             res += (s[i]);
         }
-
         return res;
-
     }
 };
 

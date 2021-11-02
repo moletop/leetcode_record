@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-
+using namespace std;
 //最长回文子串的值
 //回文子串模板
 
