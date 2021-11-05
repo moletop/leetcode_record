@@ -1,3 +1,5 @@
+#include<bits/stdc++.h>
+using namespace std;
 /*
 dp[i][j]: text[0]到text1[i] 和 text[0]到text2[j]两个字符串的最小公共子序列
 
