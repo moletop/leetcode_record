@@ -3,13 +3,12 @@ using namespace std;
 
 int main()
 {
-    string s = " jisjifjsif";
-    cout<< s << endl;
-    string s1 = "fffffff";
-    s= s1;
-    cout<< s<<endl;
-
-
+    char a[]="122";char b[]="122";
+    int i = 0;
+    if(a == b) i=1;
+    printf("%d",i);
+    //char a[]="122",char b[]="122";
+    //return a == b;//字符数组的地址
 
 
     return 0;
