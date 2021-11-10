@@ -22,9 +22,10 @@ public:
         return strs[0].substr(0 ,i);
     }
 };
+
 //骚操作,直接字符串排序，然后第一个和最后一个取最小公共前缀
 
-
+/*
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -36,4 +37,5 @@ public:
         return string(st, 0, i);
     }
 };
+*/
 
