@@ -1,4 +1,4 @@
-# leetcode 刷题打卡 ,每日更新
+# leetcode 刷题分类总结记录 , 每日更新
 
 > To be a better man every day!
 
@@ -6,7 +6,7 @@
 
 ## 个人题解：https://leetcode-cn.com/mao-qiu-da-shu/
 
-## 知识体系刷题:
+## 知识体系:
 
 1.数组
 
