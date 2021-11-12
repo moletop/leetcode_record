@@ -18,7 +18,7 @@ public:
     string path;
     vector<string> res;
 
-    void dfs(string& digits, int& level){
+    void dfs(string& digits, int level){
         if(path.size() == digits.size()){//递归终止条件
             res.push_back(path);
             return;
