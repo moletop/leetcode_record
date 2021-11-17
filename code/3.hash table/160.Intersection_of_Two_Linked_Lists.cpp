@@ -24,6 +24,5 @@ public:
             cur = cur->next;
         }
         return NULL;
-
     }
 };
