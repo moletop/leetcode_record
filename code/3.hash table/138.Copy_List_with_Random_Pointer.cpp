@@ -10,8 +10,7 @@ using namespace std;
 */
 
 
-/*
-// Definition for a Node.
+
 class Node {
 public:
     int val;
@@ -24,7 +23,7 @@ public:
         random = NULL;
     }
 };
-*/
+
 
 class Solution {
 public:
