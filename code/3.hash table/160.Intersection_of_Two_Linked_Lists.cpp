@@ -23,6 +23,6 @@ public:
             if(set.count(cur)) return cur;
             cur = cur->next;
         }
-        return NULL
+        return NULL;
     }
 };
