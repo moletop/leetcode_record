@@ -17,6 +17,6 @@ public:
                 if(find(wordDict.begin(),wordDict.end(),tem) != wordDict.end() && dp[j] == 1) dp[i] = 1;
             }
         }
-        return dp[n]
+        return dp[n];
     }
 };
