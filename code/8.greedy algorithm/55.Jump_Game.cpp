@@ -13,7 +13,7 @@ using namespace std;
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
-        int cover=0;//覆盖最远的数组下标
+        int cover=nums[0];//覆盖最远的数组下标
         for (int i = 0; i <=cover; ++i) {
             cover=max(cover,i+nums[i]);//更新覆盖最远的数组下标
             if(cover>=nums.size()-1)
