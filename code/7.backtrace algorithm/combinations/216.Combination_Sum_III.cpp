@@ -23,6 +23,7 @@ public:
         */
         if (path.size() == k) {
             if (n == 0) res.push_back(path);
+            return;
         }
         for (int i = start; i <= 9; i++) {
             path.push_back(i);
