@@ -1,4 +1,4 @@
-#include<bit/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 //思路参考：https://leetcode-cn.com/problems/number-of-ways-to-paint-n-3-grid/solution/shu-xue-jie-jue-fei-chang-kuai-le-by-lindsaywong/
 

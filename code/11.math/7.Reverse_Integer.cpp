@@ -1,5 +1,5 @@
-#include<bit/stdc++.h>
-using namespcace std;
+#include<bits/stdc++.h>
+using namespace std;
 /*
 int 范围：-2147483648 —— 2147483647
 从倒数第二位开始判断是否会溢出

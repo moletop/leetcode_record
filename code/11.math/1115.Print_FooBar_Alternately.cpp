@@ -22,7 +22,7 @@ int sem_getvalue(sem_t *sem, int *sval);
 返回阻塞在该信号量上的进程或线程数目
 linux采用返回的第一种策略。
 */
-代码
+
 
 
 class FooBar {
