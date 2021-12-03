@@ -15,7 +15,7 @@ public:
                     int down=i;
                     while(down<land.size()&&land[down][j]==1)down++;
 
-                    ans.push_back(vector<int>({i,j,down-1,right-1}));
+                    ans.push_back(vector<int>({i,j,down-1,right-1}))
                 }
             }
         }
