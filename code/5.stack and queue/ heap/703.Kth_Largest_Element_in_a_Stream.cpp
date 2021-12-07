@@ -1,4 +1,4 @@
-#include<bit/c++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 //优先队列基础题，如果用普通sort会超时。
