@@ -14,7 +14,6 @@ public:
         for(int i = 0; i < s.size(); i++){
             if(s[i] >='0' && s[i] <= '9'){
                 num = num * 10 + (s[i] - '0');
-
             }
             else if(s[i] == '['){//压栈
                 st.push(pair<string, int>(res, num));//保存状态，前面的res和接下来要扩展的倍数
@@ -24,7 +23,7 @@ public:
             else if(s[i] == ']'){//出栈
                 string tem = st.top().first;
                 int rate= st.top().second;
-                for(int i = 0; i < rate; i++){[]内的字符串翻倍
+                for(int i = 0; i < rate; i++){//[]内的字符串翻倍,然后加到栈顶的res上
                     tem += res;
                 }
                 res = tem;
@@ -35,7 +34,6 @@ public:
             }
         }
         return res;
-
     }
 };
 
