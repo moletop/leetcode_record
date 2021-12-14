@@ -27,7 +27,6 @@ public:
 
         sum -= nums[level]
         backtrace(nums, target, level+ 1, sum - nums[level]);
-        sum += nums[level]
 */
     }
 };
