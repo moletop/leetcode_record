@@ -45,7 +45,7 @@ int main(){
     TreeNode * t;
 
 
-    int node_value[5]={1,null,2,3};
+    int node_value[5]={1,NULL,2,3};
     for (int i = 0; i < 5 ;++i) {
         t= solution.build(t,node_value[i]);
     }

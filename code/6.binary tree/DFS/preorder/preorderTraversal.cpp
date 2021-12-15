@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 //递归
+
 class Solution {
 public:
     void traversal(TreeNode* cur, vector<int>& vec) {//为什么要另外写一个函数，因为要迭代保存vec,函数内部定义vec的话，递归返回时内存会被释放掉。
