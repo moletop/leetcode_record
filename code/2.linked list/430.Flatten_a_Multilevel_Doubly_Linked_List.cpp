@@ -20,7 +20,7 @@ class Solution {
 public:
     Node* flatten(Node* head) {
         Node* cur = head;
-        for(;cur != NULL; cur= cur->next){遍历
+        for(;cur != NULL; cur= cur->next){//遍历
             if(cur -> child){
                 //下层的元素[start，end]
                 Node* start = cur -> child;
