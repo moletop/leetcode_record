@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 
 class Matrix {
@@ -53,7 +52,7 @@ public:
 int main() {
     Matrix m;
     m.input();
-    m.T();
     m.updown();
+    m.T();
     m.output();
 }

@@ -54,6 +54,7 @@ int main() {
     Matrix m;
     m.input();
     m.T();
+    m.output();
     m.updown();
     m.output();
 }
