@@ -1,4 +1,4 @@
-#include<bit/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 /*
 头插法经典案例
@@ -24,8 +24,8 @@ next = cur -> next;//next指向cur的下一个节点
  *     ListNode() : val(0), next(nullptr) {}
  *     ListNode(int x) : val(x), next(nullptr) {}
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+ *};
+
 
 
 class Solution {
