@@ -24,7 +24,7 @@ public:
 };
 */
 
-class Solution
+class Solution{
 public:
     int longestPalindromeSubseq(string s) {
         int n = s.size();
