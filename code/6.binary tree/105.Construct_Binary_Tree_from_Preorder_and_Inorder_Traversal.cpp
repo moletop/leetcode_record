@@ -37,7 +37,7 @@ public:
         int n = preorder.size();
 
         for (int i = 0; i < n; i++) map[inorder[i]] = i;
-        TreeNode *res = createTree(preorder, inorder, 0, n - 1, 0, n - 1)
+        TreeNode *res = createTree(preorder, inorder, 0, n - 1, 0, n - 1);
         return res;
     }
 };
