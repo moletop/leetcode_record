@@ -17,6 +17,7 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+
 class Solution {
 public:
     unordered_map<int, int> map;//哈希表存中序的值和对应的下标，方便先序确定根节点之后，快速在中序中定位
