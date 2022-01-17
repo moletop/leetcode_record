@@ -1,5 +1,5 @@
 
-#include<bit/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 /*
 此题如果不考虑满足常数空间，有很多方法，如哈希表统计各个数字的个数，然后按顺序复现数组，或者直接调用排序算法。
