@@ -3,6 +3,7 @@ using namespace std;
 
 /*
 解题思路
+Pow(x,n)
 快速幂原理： 分治法
 此处是递归解决
 
