@@ -2,8 +2,11 @@
 using namespace std;
 
 /*
-借鉴k神思路：https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/236-er-cha-shu-de-zui-jin-gong-gong-zu-xian-hou-xu/
+二叉树的最近公共祖先节点
+和二叉搜索树的最近公共祖先节点注意区分
 
+借鉴k神思路：https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/236-er-cha-shu-de-zui-jin-gong-gong-zu-xian-hou-xu/
+先序dfs
 终止条件：
 1.当越过叶节点，则直接返回 null ；
 2.当 root 等于 p, q ，则直接返回 root ；
