@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//https://blog.csdn.net/weixin_42437295/article/details/90771962
 void quick_sort(vector<int> &nums,int L,int R) {
     if(L >= R) return;
     int left = L; int right = R;
